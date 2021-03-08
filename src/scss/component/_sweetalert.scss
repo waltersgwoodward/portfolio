@@ -1,0 +1,25 @@
+.sweetalert__title {
+    font-family: $base__font !important;
+    font-weight: bold !important;
+}
+
+.sweetalert__content {
+    font-size: $header5 !important;
+    font-family: $base__font !important;
+    line-height: $base__line-height !important;
+}
+
+.sweetalert__button {
+    font-family: $base__font !important;
+    padding: 10px 20px;
+    border-radius: $base__border-radius;
+    outline: none;
+    border: none;
+    background: $secondary__color;
+    cursor: pointer;
+    color: #eee;
+    &:hover {
+        background: rgb($secondary__color, 0.8);
+        color: #EEE;
+    }
+}

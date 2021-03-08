@@ -1,0 +1,19 @@
+// sass --watch ./src/scss/main.scss:./src/css/index.css --style compressed
+// Utils
+@import "utils/mixins";
+@import "utils/variables.scss";
+
+// Base
+@import "base/normalize.scss";
+@import "base/base.scss";
+
+// Component
+@import "component/navbar";
+@import "component/flex";
+@import "component/portfolio";
+@import "component/sandbox";
+@import "component/card";
+@import "component/sweetalert";
+@import "component/form";
+@import "component/footer";
+// @import "component/image";

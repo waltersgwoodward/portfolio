@@ -1,0 +1,22 @@
+
+.icon__links {
+  display: flex;
+  justify-content: center;
+  font-size: $header2;
+}
+
+.icon__link {
+  margin: 0px 20px;
+}
+
+.footer {
+  font-size: $text1;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  color: rgb(#888,0.5);
+  position: fixed;
+  bottom: 0;
+}
+.citations {
+  text-decoration: none;
+}

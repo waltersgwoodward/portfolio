@@ -1,0 +1,45 @@
+  @use "sass:color";
+
+  body {
+    max-width: $body__max-width;
+    margin: 0px auto;
+    background: #EEE;
+    font-size: 16px;
+  }
+
+  #root {
+    width: 100%;
+    letter-spacing: 1.5px;
+    font-family: $base__font;
+    background: $primary__color;
+    color: $secondary__color;
+  }
+
+  a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: $secondary__color;
+    border-color: $secondary__color;
+    &:hover {
+        text-decoration: none;
+        color: $highlight__color;
+    }
+  }
+
+  
+textarea, input {
+    // outline: none;
+    &:focus {
+        box-shadow: 0 0 10px #FFF;
+        outline-color: $primary__color;
+    }
+}
+
+  .overlay {
+      position: absolute;
+      width: 100%;
+      background: #000;
+      height: 100vh;
+      z-index: 2;
+  }
