@@ -7,6 +7,9 @@ import ToolIcons from './ToolIcons.js';
 import { faDesktop, faServer, faDatabase } from '@fortawesome/free-solid-svg-icons';
 
 class Cards extends Component {
+    count = () => {
+        return (Object.keys(this.props.projects).length > 0);
+    }
     createCards = () => {
         const { projects } = this.props;
         let cardsList = Object.keys(this.props.projects).map((card, index) => (
@@ -63,7 +66,15 @@ class Cards extends Component {
     render() {
         return (
             <div id="portfolio" className="portfolio" name="portfolio">
-                <div className='cards'>{this.createCards()}</div>
+                <div className='cards'>
+                {!this.count() ? <div className="portfolio--empty">Hi there! I am currently in the middle of rebuilding my portfolio. If you'd like to see some of what I am working on then please check out my Github repository<a
+                href='https://github.com/WalterSWoodward'
+                target='_blank'
+                rel='noopener noreferrer'
+                aria-label="Click here to visit Walter's Github profile"
+                > here</a>.</div> : null}
+                    {this.createCards()}
+                </div>
             </div>
         );
     }

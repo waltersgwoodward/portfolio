@@ -123,13 +123,13 @@ textarea:focus, input:focus {
   height: 100%;
   width: 80%;
   padding: 100px 0px;
-  animation-name: slide-menu-ucqisje;
+  animation-name: slide-menu-ucqisny;
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   animation-delay: 0s;
 }
-@keyframes slide-menu-ucqisje {
+@keyframes slide-menu-ucqisny {
   from {
     width: 0;
   }
@@ -141,13 +141,13 @@ textarea:focus, input:focus {
 .dropdown__overlay {
   height: 100%;
   width: 20%;
-  animation-name: fade-in-ucqiska;
+  animation-name: fade-in-ucqisou;
   animation-duration: 0.5s;
   animation-delay: 0.4s;
   animation-fill-mode: forwards;
   background: none;
 }
-@keyframes fade-in-ucqiska {
+@keyframes fade-in-ucqisou {
   from {
     background: none;
   }
@@ -248,6 +248,12 @@ textarea:focus, input:focus {
   width: 100%;
   padding-top: 60px;
   min-height: 100vh;
+}
+
+.portfolio--empty {
+  font-size: 14px;
+  line-height: 1.5;
+  color: gold;
 }
 
 @media (max-width: 768px) {
