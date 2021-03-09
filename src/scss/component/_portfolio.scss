@@ -1,22 +1,38 @@
 .portfolio {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
-  padding-top: $navbar-height;
-  min-height: 100vh;
-}
-
-.portfolio--empty {
-    font-size: $text1;
-    line-height: 1.5;
-    color: gold;
-}
-
-@media (max-width: $ipad) {
-  .portfolio {
+    display: flex;
     flex-direction: column;
     justify-content: start;
-  }
+    width: 100%;
+    padding-top: $navbar-height;
+    height: 100vh;
+}
+
+
+
+.empty-portfolio__wrap {
+    width: 80%;
+    margin: 0 10%;
+}
+
+.empty__portfolio {
+    font-size: $text2;
+    line-height: 1.7;
+    color: $secondary__color;
+}
+
+.paragraph__link {
+    color: $highlight__color;
+}
+
+@media (min-width: $ipad) {
+    .portfolio {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .empty__portfolio {
+        font-size: $text1;
+        line-height: 2;
+    }
 }

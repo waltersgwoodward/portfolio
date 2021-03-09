@@ -3,78 +3,75 @@ import { connect } from 'react-redux';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import ToolIcons from './ToolIcons.js';
-// import {  } from '@fortawesome/free-brands-svg-icons';
+import NoCardsMessage from './NoCardsMessage';
+
 import { faDesktop, faServer, faDatabase } from '@fortawesome/free-solid-svg-icons';
 
 class Cards extends Component {
-    count = () => {
-        return (Object.keys(this.props.projects).length > 0);
-    }
-    createCards = () => {
-        const { projects } = this.props;
-        let cardsList = Object.keys(this.props.projects).map((card, index) => (
-        <div className='card__wrap' key={index}>
-            {projects[card].tool_icons? <ToolIcons card={projects[card]}/> : null}
-            <div className="card__row">
-                <div className='card__title'>{projects[card].title}</div>
-            </div>
-            <div className="card__row card__row--tools">
-                <div className='card__languages'>
-                    <FontAwesomeIcon icon={faDesktop} aria-hidden="false" />
-                    <b> {projects[card].frontend_tools}</b>
+    render() {
+        console.log(this.props.projects);
+        const count = () => {
+            return (Object.keys(this.props.projects).length > 0);
+        }
+        const createCards = () => {
+            const { projects } = this.props;
+            let cardsList = Object.keys(this.props.projects).map((card, index) => (
+            <div className='card__wrap' key={index}>
+                {projects[card].tool_icons? <ToolIcons card={projects[card]}/> : null}
+                <div className="card__row">
+                    <div className='card__title'>{projects[card].title}</div>
                 </div>
-                <div className='card__languages'>
-                    <FontAwesomeIcon icon={faServer} aria-hidden="false" />
-                    <b> {projects[card].backend_tools}</b>
+                <div className="card__row card__row--tools">
+                    <div className='card__languages'>
+                        <FontAwesomeIcon icon={faDesktop} aria-hidden="false" />
+                        <b> {projects[card].frontend_tools}</b>
+                    </div>
+                    <div className='card__languages'>
+                        <FontAwesomeIcon icon={faServer} aria-hidden="false" />
+                        <b> {projects[card].backend_tools}</b>
+                    </div>
+                    <div className='card__languages'>
+                        <FontAwesomeIcon icon={faDatabase} aria-hidden="false" />
+                        <b> {projects[card].database_tools}</b>
+                    </div>
                 </div>
-                <div className='card__languages'>
-                    <FontAwesomeIcon icon={faDatabase} aria-hidden="false" />
-                    <b> {projects[card].database_tools}</b>
-                </div>
-            </div>
-            <div className="card__row">
-                <div className='card__description'>{projects[card].text}</div>
-                <div>
-                    <a
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    href={projects[card].deploy_link}
-                    className='card__button'
-                    aria-label= {"Click on this link to view the live deployment of this project" + projects[card].title}
-                    >
-                        <FontAwesomeIcon icon={projects[card].deploy_link_icon} aria-hidden="false" />
-                    </a>
-                    {projects[card].code_link_icon ? (
+                <div className="card__row">
+                    <div className='card__description'>{projects[card].text}</div>
+                    <div>
                         <a
                         target='_blank'
                         rel='noopener noreferrer'
+                        href={projects[card].deploy_link}
                         className='card__button'
-                        href={projects[card].code_link}
-                        aria-label='Click on this link to view the code for this project.'
+                        aria-label= {"Click on this link to view the live deployment of this project" + projects[card].title}
                         >
-                            <FontAwesomeIcon icon={projects[card].code_link_icon} aria-hidden="false" />
+                            <FontAwesomeIcon icon={projects[card].deploy_link_icon} aria-hidden="false" />
                         </a>
-                        ) : null
-                    }
+                        {projects[card].code_link_icon ? (
+                            <a
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            className='card__button'
+                            href={projects[card].code_link}
+                            aria-label='Click on this link to view the code for this project.'
+                            >
+                                <FontAwesomeIcon icon={projects[card].code_link_icon} aria-hidden="false" />
+                            </a>
+                            ) : null
+                        }
+                    </div>
                 </div>
             </div>
-        </div>
-        ));
-        return cardsList;
-    };
-
-    render() {
+            ));
+            return cardsList;
+        };
         return (
-            <div id="portfolio" className="portfolio" name="portfolio">
-                <div className='cards'>
-                {!this.count() ? <div className="portfolio--empty">Hi there! I am currently in the middle of rebuilding my portfolio. If you'd like to see some of what I am working on then please check out my Github repository<a
-                href='https://github.com/WalterSWoodward'
-                target='_blank'
-                rel='noopener noreferrer'
-                aria-label="Click here to visit Walter's Github profile"
-                > here</a>.</div> : null}
-                    {this.createCards()}
-                </div>
+            <div id="portfolio" className="portfolio" name="portfolio"> 
+                {!count() ? <NoCardsMessage/> 
+                :<div className="cards">
+                    {createCards()}
+                </div>}
+
             </div>
         );
     }

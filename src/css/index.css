@@ -123,13 +123,13 @@ textarea:focus, input:focus {
   height: 100%;
   width: 80%;
   padding: 100px 0px;
-  animation-name: slide-menu-ucqisny;
+  animation-name: slide-menu-ukduicu;
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   animation-delay: 0s;
 }
-@keyframes slide-menu-ucqisny {
+@keyframes slide-menu-ukduicu {
   from {
     width: 0;
   }
@@ -141,13 +141,13 @@ textarea:focus, input:focus {
 .dropdown__overlay {
   height: 100%;
   width: 20%;
-  animation-name: fade-in-ucqisou;
+  animation-name: fade-in-ukduidp;
   animation-duration: 0.5s;
   animation-delay: 0.4s;
   animation-fill-mode: forwards;
   background: none;
 }
-@keyframes fade-in-ucqisou {
+@keyframes fade-in-ukduidp {
   from {
     background: none;
   }
@@ -242,24 +242,38 @@ textarea:focus, input:focus {
 }
 .portfolio {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: start;
   width: 100%;
   padding-top: 60px;
-  min-height: 100vh;
+  height: 100vh;
 }
 
-.portfolio--empty {
-  font-size: 14px;
-  line-height: 1.5;
-  color: gold;
+.empty-portfolio__wrap {
+  width: 80%;
+  margin: 0 10%;
 }
 
-@media (max-width: 768px) {
+.empty__portfolio {
+  font-size: 12px;
+  line-height: 1.7;
+  color: #524c67;
+}
+
+.paragraph__link {
+  color: #f6e9fc;
+}
+
+@media (min-width: 768px) {
   .portfolio {
-    flex-direction: column;
-    justify-content: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .empty__portfolio {
+    font-size: 14px;
+    line-height: 2;
   }
 }
 .blocks {
