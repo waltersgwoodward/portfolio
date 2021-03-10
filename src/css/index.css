@@ -120,13 +120,13 @@ input:focus {
   padding: 100px 0px;
   border: 1px solid #ccc;
   border-width: 0px 1px 0px 0px;
-  animation-name: slide-menu-u1tkacw;
+  animation-name: slide-menu-u1tkau4;
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   animation-delay: 0s;
 }
-@keyframes slide-menu-u1tkacw {
+@keyframes slide-menu-u1tkau4 {
   from {
     width: 0;
   }
@@ -138,14 +138,14 @@ input:focus {
 .dropdown__overlay {
   height: 100%;
   width: 20%;
-  animation-name: fade-in-u1tkad5;
+  animation-name: fade-in-u1tkauj;
   animation-duration: 0.5s;
   animation-delay: 0.4s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   background: none;
 }
-@keyframes fade-in-u1tkad5 {
+@keyframes fade-in-u1tkauj {
   from {
     background: none;
   }
@@ -242,7 +242,7 @@ input:focus {
   justify-content: flex-start;
   width: 100%;
   padding-top: 60px;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .empty-portfolio__wrap {
@@ -278,7 +278,7 @@ input:focus {
 }
 
 .card__wrap {
-  margin: 5px;
+  margin: 10px;
   width: 100%;
   border-radius: 5px;
   color: #eee;
@@ -489,12 +489,14 @@ input:focus {
 }
 
 .footer {
-  font-size: 14px;
+  font-size: 8px;
+  padding: 1px;
   text-align: center;
-  padding: 10px 10px 10px 10px;
   color: rgba(136, 136, 136, 0.5);
   position: fixed;
   bottom: 0;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
 }
 
 .citations {

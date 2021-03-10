@@ -10,12 +10,14 @@
 }
 
 .footer {
-  font-size: $text1;
+  font-size: $text4;
+  padding: 1px;
   text-align: center;
-  padding: 10px 10px 10px 10px;
   color: rgb(#888,0.5);
   position: fixed;
   bottom: 0;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
 }
 .citations {
   text-decoration: none;
