@@ -120,13 +120,13 @@ input:focus {
   padding: 100px 0px;
   border: 1px solid #ccc;
   border-width: 0px 1px 0px 0px;
-  animation-name: slide-menu-u1tka8e;
+  animation-name: slide-menu-u1tkacw;
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   animation-delay: 0s;
 }
-@keyframes slide-menu-u1tka8e {
+@keyframes slide-menu-u1tkacw {
   from {
     width: 0;
   }
@@ -138,14 +138,14 @@ input:focus {
 .dropdown__overlay {
   height: 100%;
   width: 20%;
-  animation-name: fade-in-u1tka8o;
+  animation-name: fade-in-u1tkad5;
   animation-duration: 0.5s;
   animation-delay: 0.4s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   background: none;
 }
-@keyframes fade-in-u1tka8o {
+@keyframes fade-in-u1tkad5 {
   from {
     background: none;
   }
@@ -454,15 +454,15 @@ input:focus {
 }
 
 .form__button {
-  background: #888;
-  color: #eee;
+  background: #fff;
+  color: #333;
   align-self: flex-end;
   cursor: pointer;
   border: none;
   margin-top: 20px;
   padding: 10px 20px;
   box-sizing: border-box;
-  border-radius: 5px;
+  border-radius: 3em;
 }
 .form__button:hover {
   background: rgba(136, 136, 136, 0.7);

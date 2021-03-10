@@ -67,15 +67,15 @@
 }
 
 .form__button {
-  background: #888;
-  color: #eee;
+  background: #fff;
+  color: #333;
   align-self: flex-end;
   cursor: pointer;
   border: none;
   margin-top: 20px;
   padding: 10px 20px;
   box-sizing: border-box;
-  border-radius: $base__border-radius;
+  border-radius: 3em;
   &:hover {
       background: rgba(#888, 0.7);
   }
