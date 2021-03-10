@@ -1,45 +1,45 @@
-  @use "sass:color";
+@use "sass:color";
 
-  body {
+body {
     max-width: $body__max-width;
     margin: 0px auto;
-    background: #EEE;
+    background: #333;
     font-size: 16px;
-  }
+}
 
-  #root {
+#root {
     width: 100%;
     letter-spacing: 1.5px;
     font-family: $base__font;
-    background: $primary__color;
-    color: $secondary__color;
-  }
+    background: #eee;
+    color: #333;
+}
 
-  a {
+a {
     margin: 0;
     padding: 0;
     text-decoration: none;
-    color: $secondary__color;
-    border-color: $secondary__color;
+    color: #333;
+    border-color: #ddd;
     &:hover {
         text-decoration: none;
-        color: $highlight__color;
+        color: #888;
     }
-  }
+}
 
-  
-textarea, input {
+textarea,
+input {
     // outline: none;
     &:focus {
-        box-shadow: 0 0 10px #FFF;
+        box-shadow: 0 0 10px #fff;
         outline-color: $primary__color;
     }
 }
 
-  .overlay {
-      position: absolute;
-      width: 100%;
-      background: #000;
-      height: 100vh;
-      z-index: 2;
-  }
+.overlay {
+    position: absolute;
+    width: 100%;
+    background: #000;
+    height: 100vh;
+    z-index: 2;
+}

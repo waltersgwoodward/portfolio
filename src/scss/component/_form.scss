@@ -67,8 +67,8 @@
 }
 
 .form__button {
-  background: $secondary__color;
-  color: #EEE;
+  background: #888;
+  color: #eee;
   align-self: flex-end;
   cursor: pointer;
   border: none;
@@ -77,7 +77,7 @@
   box-sizing: border-box;
   border-radius: $base__border-radius;
   &:hover {
-      background: rgba($secondary__color, 0.7);
+      background: rgba(#888, 0.7);
   }
 }
 
