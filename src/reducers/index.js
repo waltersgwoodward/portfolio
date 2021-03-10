@@ -33,19 +33,19 @@ const initialState = {
         //     code_link: "https://github.com/walterswoodward/basic-angular-app",
         //     code_link_icon: faGithub
         // },
-        // "nine-acre-photography": {
-        //     tool_icons: [faLaravel],
-        //     alt: "nine acre photography community",
-        //     title: "Nice Acre Photography",
-        //     frontend_tools: "Laravel, VueJS, TailwindCSS",
-        //     backend_tools: "???",
-        //     database_tools: "???",
-        //     text: "Nine Acre Photography's official hub for helping aspiring photographers get connected",
-        //     deploy_link: "https://basic-angular-app.netlify.app/",
-        //     deploy_link_icon: faLink,
-        //     code_link: "https://github.com/walterswoodward/basic-angular-app",
-        //     code_link_icon: faGithub
-        // }
+        "nine-acre-photography": {
+            tool_icons: [faLaravel],
+            alt: "nine acre photography community",
+            title: "Nice Acre Photography",
+            frontend_tools: "Laravel Blade, VueJS, TailwindCSS",
+            backend_tools: "Laravel Eloquent ORM",
+            database_tools: "mySQL",
+            text: "(in progress) Nine Acre Photography's official hub for helping aspiring photographers get connected",
+            deploy_link: "https://nine-acre-photography.herokuapp.com/",
+            deploy_link_icon: faLink,
+            code_link: "https://github.com/walterswoodward/nine-acre-photography",
+            code_link_icon: faGithub
+        }
     },
     dropDownOpen: false
 };
