@@ -127,13 +127,13 @@ input:focus {
   padding: 100px 0px;
   border: 1px solid #ccc;
   border-width: 0px 1px 0px 0px;
-  animation-name: slide-menu-u1tk6h4;
+  animation-name: slide-menu-u1tk6p8;
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   animation-delay: 0s;
 }
-@keyframes slide-menu-u1tk6h4 {
+@keyframes slide-menu-u1tk6p8 {
   from {
     width: 0;
   }
@@ -145,13 +145,13 @@ input:focus {
 .dropdown__overlay {
   height: 100%;
   width: 20%;
-  animation-name: fade-in-u1tk6hh;
+  animation-name: fade-in-u1tk6q7;
   animation-duration: 0.5s;
   animation-delay: 0.4s;
   animation-fill-mode: forwards;
   background: none;
 }
-@keyframes fade-in-u1tk6hh {
+@keyframes fade-in-u1tk6q7 {
   from {
     background: none;
   }
@@ -389,12 +389,12 @@ input:focus {
   border-radius: 5px;
   outline: none;
   border: none;
-  background: #524c67;
+  background: #888;
   cursor: pointer;
   color: #eee;
 }
 .sweetalert__button:hover {
-  background: rgba(82, 76, 103, 0.8);
+  background: rgba(136, 136, 136, 0.7);
   color: #eee;
 }
 
