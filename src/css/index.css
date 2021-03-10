@@ -11,10 +11,16 @@ body {
   font-size: 16px;
 }
 
+body,
+input,
+textarea,
+button {
+  font-family: garamond, serif;
+}
+
 #root {
   width: 100%;
   letter-spacing: 1.5px;
-  font-family: "Montserrat", sans-serif;
   background: #eee;
   color: #333;
 }
@@ -24,7 +30,6 @@ a {
   padding: 0;
   text-decoration: none;
   color: #333;
-  border-color: #ddd;
 }
 a:hover {
   text-decoration: none;
@@ -37,30 +42,18 @@ input:focus {
   outline-color: #8799c5;
 }
 
-.overlay {
-  position: absolute;
-  width: 100%;
-  background: #000;
-  height: 100vh;
-  z-index: 2;
-}
-
 .navbar__wrap {
   width: 100%;
-  margin-right: 50%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  z-index: 2;
+  z-index: 1;
   top: 0;
   height: 60px;
   transition: top 0.5s;
   max-width: 1250px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
   box-sizing: border-box;
-  background: #eee;
   border-bottom: 1px solid #ccc;
 }
 
@@ -127,13 +120,13 @@ input:focus {
   padding: 100px 0px;
   border: 1px solid #ccc;
   border-width: 0px 1px 0px 0px;
-  animation-name: slide-menu-u1tk6p8;
+  animation-name: slide-menu-u1tka8e;
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   animation-delay: 0s;
 }
-@keyframes slide-menu-u1tk6p8 {
+@keyframes slide-menu-u1tka8e {
   from {
     width: 0;
   }
@@ -145,13 +138,14 @@ input:focus {
 .dropdown__overlay {
   height: 100%;
   width: 20%;
-  animation-name: fade-in-u1tk6q7;
+  animation-name: fade-in-u1tka8o;
   animation-duration: 0.5s;
   animation-delay: 0.4s;
   animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
   background: none;
 }
-@keyframes fade-in-u1tk6q7 {
+@keyframes fade-in-u1tka8o {
   from {
     background: none;
   }
@@ -206,7 +200,6 @@ input:focus {
 }
 
 .flex-column-content__name {
-  font-weight: bold;
   text-align: center;
   font-size: 32px;
 }
@@ -217,7 +210,6 @@ input:focus {
 }
 
 .flex-column-content__link {
-  font-weight: bold;
   padding-bottom: 5px;
   margin-bottom: 10px;
 }
@@ -247,7 +239,7 @@ input:focus {
 .portfolio {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   width: 100%;
   padding-top: 60px;
   height: 100vh;
@@ -297,7 +289,6 @@ input:focus {
 .card__row {
   display: flex;
   flex-direction: column;
-  color: #eee;
 }
 
 .card__row + .card__row:not(:last-child) {
@@ -323,7 +314,6 @@ input:focus {
 
 .card__languages {
   font-size: 12px;
-  font-weight: normal;
   margin-bottom: 5px;
   padding: 7px 0px;
 }
@@ -373,18 +363,18 @@ input:focus {
   }
 }
 .sweetalert__title {
-  font-family: "Montserrat", sans-serif !important;
+  font-family: garamond, serif !important;
   font-weight: bold !important;
 }
 
 .sweetalert__content {
   font-size: 20px !important;
-  font-family: "Montserrat", sans-serif !important;
+  font-family: garamond, serif !important;
   line-height: 1.6 !important;
 }
 
 .sweetalert__button {
-  font-family: "Montserrat", sans-serif !important;
+  font-family: garamond, serif !important;
   padding: 10px 20px;
   border-radius: 5px;
   outline: none;

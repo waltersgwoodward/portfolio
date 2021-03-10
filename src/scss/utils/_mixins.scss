@@ -14,7 +14,7 @@
     animation-timing-function: ease-in;
     animation-delay: 0s;
 }
-  
+
 @mixin fade-in($duration, $delay, $fillMode) {
     $name: #{"fade-in-"}#{unique-id()};
     @keyframes #{$name} {
@@ -24,4 +24,5 @@
     animation-duration: $duration;
     animation-delay: $delay;
     animation-fill-mode: $fillMode;
+    animation-timing-function: ease-in;
 }

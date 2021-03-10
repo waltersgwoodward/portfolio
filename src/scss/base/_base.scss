@@ -7,10 +7,16 @@ body {
     font-size: 16px;
 }
 
+body,
+input,
+textarea,
+button {
+    font-family: $base__font;
+}
+
 #root {
     width: 100%;
     letter-spacing: 1.5px;
-    font-family: $base__font;
     background: #eee;
     color: #333;
 }
@@ -20,7 +26,6 @@ a {
     padding: 0;
     text-decoration: none;
     color: #333;
-    border-color: #ddd;
     &:hover {
         text-decoration: none;
         color: #888;
@@ -34,12 +39,4 @@ input {
         box-shadow: 0 0 10px #fff;
         outline-color: $primary__color;
     }
-}
-
-.overlay {
-    position: absolute;
-    width: 100%;
-    background: #000;
-    height: 100vh;
-    z-index: 2;
 }
