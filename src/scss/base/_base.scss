@@ -1,17 +1,6 @@
 @use "sass:color";
 
-html::before {
-    z-index: -1;
-	position: fixed;
-	height: 100vh;
-	width: 100vw;
-	content: "";
-    background: purple;
-}
-
-body {
-    max-width: $body__max-width;
-    margin: 0px auto;
+.space__background {
     background-color: #000;
     background-image: radial-gradient(#fff, rgba(#fff, 0.2) 2px, transparent 40px),
         radial-gradient(#fff, rgba(#fff, 0.15) 1px, transparent 30px),
@@ -19,6 +8,21 @@ body {
         radial-gradient(rgba(#fff, 0.4), rgba(#fff, 0.1) 2px, transparent 30px);
     background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
     background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+
+html::before {
+    z-index: -1;
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	content: "";
+    @extend .space__background;
+}
+
+body {
+    max-width: $body__max-width;
+    margin: 0px auto;
+    @extend .space__background;
     font-size: 16px;
 }
 
