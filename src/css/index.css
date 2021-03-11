@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  background: pink;
+}
+
 body {
   max-width: 1250px;
   margin: 0px auto;
@@ -149,13 +153,13 @@ input:focus {
   padding: 100px 0px;
   border: 1px solid #ccc;
   border-width: 0px 1px 0px 0px;
-  animation-name: slide-menu-u5wzyil;
+  animation-name: slide-menu-u5wzym4;
   animation-duration: 0.2s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   animation-delay: 0s;
 }
-@keyframes slide-menu-u5wzyil {
+@keyframes slide-menu-u5wzym4 {
   from {
     width: 0;
   }
@@ -167,14 +171,14 @@ input:focus {
 .dropdown__overlay {
   height: 100%;
   width: 20%;
-  animation-name: fade-in-u5wzyj5;
+  animation-name: fade-in-u5wzymt;
   animation-duration: 0.5s;
   animation-delay: 0.4s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   background: none;
 }
-@keyframes fade-in-u5wzyj5 {
+@keyframes fade-in-u5wzymt {
   from {
     background: none;
   }
