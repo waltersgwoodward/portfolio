@@ -57,6 +57,7 @@ input:focus {
 .page-row__name {
   text-align: center;
   font-size: 32px;
+  padding-top: 7rem;
 }
 
 .page-row__title {
@@ -146,13 +147,13 @@ input:focus {
   padding: 100px 0px;
   border: 1px solid #ccc;
   border-width: 0px 1px 0px 0px;
-  animation-name: slide-menu-u5wzy48;
+  animation-name: slide-menu-u5wzyb8;
   animation-duration: 0.2s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   animation-delay: 0s;
 }
-@keyframes slide-menu-u5wzy48 {
+@keyframes slide-menu-u5wzyb8 {
   from {
     width: 0;
   }
@@ -164,14 +165,14 @@ input:focus {
 .dropdown__overlay {
   height: 100%;
   width: 20%;
-  animation-name: fade-in-u5wzy4w;
+  animation-name: fade-in-u5wzybj;
   animation-duration: 0.5s;
   animation-delay: 0.4s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   background: none;
 }
-@keyframes fade-in-u5wzy4w {
+@keyframes fade-in-u5wzybj {
   from {
     background: none;
   }

@@ -4,7 +4,7 @@ import {
 import {
     faLink
 } from "@fortawesome/free-solid-svg-icons";
-import { faGithub, faAngular, faReact, faLaravel } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLaravel } from "@fortawesome/free-brands-svg-icons";
 
 const initialState = {
     projects: {
