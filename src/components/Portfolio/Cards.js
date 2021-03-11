@@ -65,12 +65,14 @@ class Cards extends Component {
             return cardsList;
         };
         return (
-            <div id="portfolio" className="portfolio" name="portfolio">
-                {!count() ? <NoCardsMessage />
-                    : <div className="cards">
-                        {createCards()}
-                    </div>}
+            <div className="page">
+                <div className="portfolio">
+                    {!count() ? <NoCardsMessage />
+                        : <div className="cards">
+                            {createCards()}
+                        </div>}
 
+                </div>
             </div>
         );
     }

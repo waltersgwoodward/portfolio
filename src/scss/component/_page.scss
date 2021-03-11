@@ -1,0 +1,22 @@
+.page {
+    padding-top: $navbar-height;
+    min-height: 100vh;
+}
+
+.page__row {
+    padding: 1rem;
+}
+
+.page-row__name {
+    text-align: center;
+    font-size: $header2;
+}
+
+.page-row__title {
+    text-align: center;
+}
+
+.page-row__link {
+    display: block;
+    text-align: center;
+}

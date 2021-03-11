@@ -3,8 +3,6 @@
     flex-direction: column;
     justify-content: flex-start;
     width: 100%;
-    padding-top: $navbar-height;
-    min-height: 100vh;
 }
 
 .empty-portfolio__wrap {
@@ -15,7 +13,7 @@
 .empty__portfolio {
     font-size: $text2;
     line-height: 1.7;
-    color: #333;
+    color: $base__color;
 }
 
 .paragraph__link {

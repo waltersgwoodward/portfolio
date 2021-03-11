@@ -7,7 +7,10 @@
 body {
   max-width: 1250px;
   margin: 0px auto;
-  background: #333;
+  background-color: #000;
+  background-image: radial-gradient(#fff, rgba(255, 255, 255, 0.2) 2px, transparent 40px), radial-gradient(#fff, rgba(255, 255, 255, 0.15) 1px, transparent 30px), radial-gradient(#fff, rgba(255, 255, 255, 0.1) 2px, transparent 40px), radial-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1) 2px, transparent 30px);
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
   font-size: 16px;
 }
 
@@ -42,6 +45,29 @@ input:focus {
   outline-color: #8799c5;
 }
 
+.page {
+  padding-top: 60px;
+  min-height: 100vh;
+}
+
+.page__row {
+  padding: 1rem;
+}
+
+.page-row__name {
+  text-align: center;
+  font-size: 32px;
+}
+
+.page-row__title {
+  text-align: center;
+}
+
+.page-row__link {
+  display: block;
+  text-align: center;
+}
+
 .navbar__wrap {
   width: 100%;
   display: flex;
@@ -55,6 +81,7 @@ input:focus {
   max-width: 1250px;
   box-sizing: border-box;
   border-bottom: 1px solid #ccc;
+  background: #eee;
 }
 
 .navbar__link {
@@ -120,13 +147,13 @@ input:focus {
   padding: 100px 0px;
   border: 1px solid #ccc;
   border-width: 0px 1px 0px 0px;
-  animation-name: slide-menu-u1tkau4;
-  animation-duration: 0.5s;
+  animation-name: slide-menu-u5wzxpp;
+  animation-duration: 0.2s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   animation-delay: 0s;
 }
-@keyframes slide-menu-u1tkau4 {
+@keyframes slide-menu-u5wzxpp {
   from {
     width: 0;
   }
@@ -138,14 +165,14 @@ input:focus {
 .dropdown__overlay {
   height: 100%;
   width: 20%;
-  animation-name: fade-in-u1tkauj;
+  animation-name: fade-in-u5wzxq7;
   animation-duration: 0.5s;
   animation-delay: 0.4s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   background: none;
 }
-@keyframes fade-in-u1tkauj {
+@keyframes fade-in-u5wzxq7 {
   from {
     background: none;
   }
@@ -183,51 +210,11 @@ input:focus {
     font-size: 32px;
   }
 }
-.flex__column {
-  display: flex;
-  flex-direction: column;
-}
-
-.flex-column__content {
-  box-sizing: border-box;
-  align-items: center;
-  padding-top: 100px;
-  animation-name: textFadeIn;
-  animation-duration: 4s;
-  animation-fill-mode: forwards;
-  width: 100%;
-  height: 100vh;
-}
-
-.flex-column-content__name {
-  text-align: center;
-  font-size: 32px;
-}
-
-.flex-column-content__title {
-  padding: 20px 0px;
-  text-align: center;
-}
-
-.flex-column-content__link {
-  padding-bottom: 5px;
-  margin-bottom: 10px;
-}
-.flex-column-content__link:hover {
-  border-bottom: 2px solid #eee;
-  margin-bottom: 8px;
-}
-
 .flex__row--space-around {
   display: none;
 }
 
 @media (min-width: 480px) {
-  .flex-column__content {
-    justify-content: center;
-    padding-top: 0px;
-  }
-
   .flex__row, .flex__row--space-around {
     display: flex;
     flex-direction: row;
@@ -241,8 +228,6 @@ input:focus {
   flex-direction: column;
   justify-content: flex-start;
   width: 100%;
-  padding-top: 60px;
-  min-height: 100vh;
 }
 
 .empty-portfolio__wrap {
@@ -364,7 +349,7 @@ input:focus {
 }
 .sweetalert__title {
   font-family: garamond, serif !important;
-  font-weight: bold !important;
+  font-weight: normal !important;
 }
 
 .sweetalert__content {
@@ -374,18 +359,11 @@ input:focus {
 }
 
 .sweetalert__button {
-  font-family: garamond, serif !important;
-  padding: 10px 20px;
-  border-radius: 5px;
   outline: none;
-  border: none;
-  background: #888;
-  cursor: pointer;
-  color: #eee;
+  background: #ccc !important;
 }
 .sweetalert__button:hover {
-  background: rgba(136, 136, 136, 0.7);
-  color: #eee;
+  background: #b3b3b3 !important;
 }
 
 .form__form {
@@ -400,10 +378,9 @@ input:focus {
 }
 
 .form__body {
-  padding: 60px 5% 0px 5%;
+  padding: 0px 5%;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
   font-size: 20px;
 }
 
@@ -422,23 +399,13 @@ input:focus {
 .form__row, .form__row--email, .form__row--name {
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
+  margin-top: 2rem;
 }
 .form__row:first-child, .form__row--email:first-child, .form__row--name:first-child {
-  margin-top: 0px;
+  margin-top: 1rem;
 }
-.form__row--name {
-  width: 30%;
-  min-width: 280px;
-  margin-right: 20px;
-}
-.form__row--email {
-  width: 60%;
-  min-width: 280px;
-}
-
 .form__row + .form__row, .form__row--name + .form__row, .form__row--email + .form__row, .form__row + .form__row--name, .form__row--name + .form__row--name, .form__row--email + .form__row--name, .form__row + .form__row--email, .form__row--name + .form__row--email, .form__row--email + .form__row--email {
-  margin-top: 20px;
+  margin-top: 2rem;
 }
 
 .form-row__input, .form-row__input--textarea {
@@ -450,27 +417,35 @@ input:focus {
 }
 .form-row__input--textarea {
   height: 150px;
-  color: black;
+  color: #000;
 }
 
-.form__button {
+.form__button, .sweetalert__button {
   background: #fff;
   color: #333;
   align-self: flex-end;
   cursor: pointer;
   border: none;
-  margin-top: 20px;
+  margin-top: 2rem;
   padding: 10px 20px;
   box-sizing: border-box;
   border-radius: 3em;
 }
-.form__button:hover {
+.form__button:hover, .sweetalert__button:hover {
   background: rgba(136, 136, 136, 0.7);
 }
 
 @media (min-width: 480px) {
-  .form__row:first-child, .form__row--name:first-child, .form__row--email:first-child {
-    margin-top: 20px;
+  .form__row.form__row--name, .form__row--name {
+    margin-top: 1rem;
+    width: 30%;
+    min-width: 280px;
+    margin-right: 2rem;
+  }
+  .form__row.form__row--email, .form__row--email {
+    margin-top: 1rem;
+    width: 60%;
+    min-width: 280px;
   }
 
   .form__group {

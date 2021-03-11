@@ -1,6 +1,6 @@
 .sweetalert__title {
     font-family: $base__font !important;
-    font-weight: bold !important;
+    font-weight: normal !important;
 }
 
 .sweetalert__content {
@@ -10,16 +10,10 @@
 }
 
 .sweetalert__button {
-    font-family: $base__font !important;
-    padding: 10px 20px;
-    border-radius: $base__border-radius;
     outline: none;
-    border: none;
-    background: #888;
-    cursor: pointer;
-    color: #eee;
+    @extend .form__button;
+    background: #ccc !important;
     &:hover {
-        background: rgb(#888, 0.7);
-        color: #eee;
+        background: darken(#ccc, 10%) !important;
     }
 }

@@ -53,7 +53,7 @@ class Form extends Component {
 
       
     return (
-      <Fragment>
+      <div className="page">
         <div className='form__wrap' name='contact'>
           <form className='form__form' onSubmit={this.submitForm} action='https://formspree.io/f/mpzoozjo' method="POST">
             <div className='form__body'>
@@ -79,7 +79,7 @@ class Form extends Component {
             </div>
           </form>
         </div>
-      </Fragment>
+      </div>
     );
   }
 
