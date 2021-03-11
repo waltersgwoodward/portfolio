@@ -33,6 +33,7 @@ a {
   padding: 0;
   text-decoration: none;
   color: #333;
+  touch-action: manipulation;
 }
 a:hover {
   text-decoration: none;
@@ -147,13 +148,13 @@ input:focus {
   padding: 100px 0px;
   border: 1px solid #ccc;
   border-width: 0px 1px 0px 0px;
-  animation-name: slide-menu-u5wzyfd;
+  animation-name: slide-menu-u5wzyh4;
   animation-duration: 0.2s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   animation-delay: 0s;
 }
-@keyframes slide-menu-u5wzyfd {
+@keyframes slide-menu-u5wzyh4 {
   from {
     width: 0;
   }
@@ -165,14 +166,14 @@ input:focus {
 .dropdown__overlay {
   height: 100%;
   width: 20%;
-  animation-name: fade-in-u5wzyg7;
+  animation-name: fade-in-u5wzyhq;
   animation-duration: 0.5s;
   animation-delay: 0.4s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   background: none;
 }
-@keyframes fade-in-u5wzyg7 {
+@keyframes fade-in-u5wzyhq {
   from {
     background: none;
   }
