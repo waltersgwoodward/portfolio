@@ -4,8 +4,13 @@
   box-sizing: border-box;
 }
 
-html {
-  background: pink;
+html::before {
+  z-index: -1;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  content: "";
+  background: purple;
 }
 
 body {
@@ -153,13 +158,13 @@ input:focus {
   padding: 100px 0px;
   border: 1px solid #ccc;
   border-width: 0px 1px 0px 0px;
-  animation-name: slide-menu-u5wzym4;
+  animation-name: slide-menu-u5wzyok;
   animation-duration: 0.2s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   animation-delay: 0s;
 }
-@keyframes slide-menu-u5wzym4 {
+@keyframes slide-menu-u5wzyok {
   from {
     width: 0;
   }
@@ -171,14 +176,14 @@ input:focus {
 .dropdown__overlay {
   height: 100%;
   width: 20%;
-  animation-name: fade-in-u5wzymt;
+  animation-name: fade-in-u5wzyoy;
   animation-duration: 0.5s;
   animation-delay: 0.4s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   background: none;
 }
-@keyframes fade-in-u5wzymt {
+@keyframes fade-in-u5wzyoy {
   from {
     background: none;
   }

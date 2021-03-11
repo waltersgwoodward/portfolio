@@ -1,7 +1,12 @@
 @use "sass:color";
 
-html {
-    background: pink;
+html::before {
+    z-index: -1;
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	content: "";
+    background: purple;
 }
 
 body {
