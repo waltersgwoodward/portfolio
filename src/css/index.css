@@ -160,13 +160,13 @@ input:focus {
   padding: 100px 0px;
   border: 1px solid #ccc;
   border-width: 0px 1px 0px 0px;
-  animation-name: slide-menu-u5wzyqq;
+  animation-name: slide-menu-u7hgcn1;
   animation-duration: 0.2s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   animation-delay: 0s;
 }
-@keyframes slide-menu-u5wzyqq {
+@keyframes slide-menu-u7hgcn1 {
   from {
     width: 0;
   }
@@ -178,14 +178,14 @@ input:focus {
 .dropdown__overlay {
   height: 100%;
   width: 20%;
-  animation-name: fade-in-u5wzyr2;
-  animation-duration: 0.5s;
-  animation-delay: 0.4s;
+  animation-name: fade-in-u7hgcn5;
+  animation-duration: 0.2s;
+  animation-delay: 0.2s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   background: none;
 }
-@keyframes fade-in-u5wzyr2 {
+@keyframes fade-in-u7hgcn5 {
   from {
     background: none;
   }

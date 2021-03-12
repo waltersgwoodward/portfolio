@@ -91,7 +91,7 @@
 .dropdown__overlay {
     height: 100%;
     width: 20%;
-    @include fade-in(0.5s, 0.4s, forwards) {
+    @include fade-in(0.2s, 0.2s, forwards) {
         from {
             background: none;
         }
