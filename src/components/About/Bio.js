@@ -17,8 +17,7 @@ Among other things I considered sound engineering, accounting, organic farming, 
                         <div className="page-paragraph__header">Coming to Faith</div>
                         <div className="page__paragraph">Since my grandfather's death in 2008, I had become increasingly interested in the bible and the Christian faith.
 I was baptized in 2013, and enrolled the following year as a Master of Arts in Theology student at Gordon Conwell Theological Seminary.
-It is one part of my story that deviates a bit from the stereotypical millenial programmer's story.
-The older I get, the more thankful I am that that is the case.
+This is one part of my story that deviates a bit from the stereotypical millenial programmer's story, but you know the older I get, the more thankful I am that that is the case.
 At any rate, back to programming.
 It was nearing the end of 2017, and I was in my final semester at seminary.
 In my prayers and considerations, I came to the conclusion that pursuing ministry in a professional or academic setting was not in the cards for me.
