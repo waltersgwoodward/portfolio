@@ -1,51 +1,41 @@
 import {
     TOGGLE_DROP_DOWN
 } from "../actions";
-import {
-    faLink
-} from "@fortawesome/free-solid-svg-icons";
-import { faGithub, faLaravel } from "@fortawesome/free-brands-svg-icons";
+import { faReact, faJs } from "@fortawesome/free-brands-svg-icons";
 
 const initialState = {
     projects: {
-        // "full-stack-todolist": {
-        //     tool_icons: [faReact],
-        //     title: "Todolist CRUD App",
-        //     frontend_tools: "React, Redux",
-        //     backend_tools: "Golang",
-        //     database_tools: "Docker, mySQL",
-        //     text: "A todolist built with React/Redux/Axios on the Frontend and Golang, Docker, mySQL on the backend",
-        //     deploy_link: "https://basic-angular-app.netlify.app/",
-        //     deploy_link_icon: faLink,
-        //     code_link: "https://github.com/walterswoodward/basic-angular-app",
-        //     code_link_icon: faGithub
-        // },
-        // "angular": {
-        //     tool_icons: [faAngular],
-        //     alt: "handicappedpets wizard sizer",
-        //     title: "Angular Online Store",
-        //     frontend_tools: "Angular 8",
-        //     backend_tools: "???",
-        //     database_tools: "???",
-        //     text: "A demo for an online store using Angular 8",
-        //     deploy_link: "https://basic-angular-app.netlify.app/",
-        //     deploy_link_icon: faLink,
-        //     code_link: "https://github.com/walterswoodward/basic-angular-app",
-        //     code_link_icon: faGithub
-        // },
-        "nine-acre-photography": {
-            tool_icons: [faLaravel],
-            alt: "nine acre photography community",
-            title: "Nice Acre Photography",
-            frontend_tools: "Laravel Blade, VueJS, TailwindCSS",
-            backend_tools: "Laravel Eloquent ORM",
+        "hanidcapped-pets": {
+            tool_icons: [faJs],
+            title: "HandicappedPets Wizard Sizer",
+            frontend_tools: "JavaScript, WordPress",
+            backend_tools: "PHP, phpMyAdmin",
             database_tools: "mySQL",
-            text: "(in progress) Nine Acre Photography's official hub for helping aspiring photographers get connected",
-            deploy_link: "https://nine-acre-photography.herokuapp.com/",
-            deploy_link_icon: faLink,
-            code_link: "https://github.com/walterswoodward/nine-acre-photography",
-            code_link_icon: faGithub
-        }
+            text: "A tool that I built in 2019 that customers at handicappedpets.com still use to get the correct sized wheelchair for their pet.",
+            deploy_link: "https://www.handicappedpets.com/wheelchair-sizer/",
+        },
+        "portfolio": {
+            tool_icons: [faReact],
+            title: "Portfolio Website",
+            frontend_tools: "React, Redux, Sass/Scss",
+            backend_tools: "Netlify",
+            database_tools: "mySQL",
+            text: "A web application that I built to make it easier for prospective employers to look at what I am working on and contact me.",
+            code_link: "https://github.com/walterswoodward/portfolio",
+        },
+        // "nine-acre-photography": {
+        //     tool_icons: [faLaravel],
+        //     title: "Nice Acre Photography",
+        //     frontend_tools: "Laravel Blade, VueJS, TailwindCSS",
+        //     backend_tools: "Laravel Eloquent ORM",
+        //     database_tools: "mySQL",
+        //     deployment_tools: "Heroku",
+        //     text: "(in progress) A photography website I built and maintain for a friend",
+        //     deploy_link: "https://nine-acre-photography.herokuapp.com/",
+        //     deploy_link_icon: faLink,
+        //     code_link: "https://github.com/walterswoodward/nine-acre-photography",
+        //     code_link_icon: faGithub
+        // },
     },
     dropDownOpen: false
 };

@@ -9,10 +9,11 @@ $base__color: #333;
 $navbar-height: 60px;
 $body__max-width: 1250px;
 // $primary__color: hsl(math.floor(math.random() * 360), 35%, 65%);
-$primary__color: #8799c5;
+$primary__color: hsl(223, 35%, 65%);
 $secondary__color: color.adjust($primary__color, $hue: 30deg, $saturation: -20%, $lightness: -30%);
 $tertiary__color: color.adjust($primary__color, $hue: -30deg, $saturation: -20%, $lightness: -30%);
 $highlight__color: color.adjust($primary__color, $hue: 60deg, $saturation: 40%, $lightness: 30%);
+$highlight__color2: color.adjust($primary__color, $hue: -10deg, $saturation: 65%, $lightness: 5%);
 $container__margin: 10px;
 
 // Typography

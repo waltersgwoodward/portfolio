@@ -1,11 +1,12 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import { connect } from 'react-redux';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import ToolIcons from './ToolIcons.js';
 import NoCardsMessage from './NoCardsMessage';
 
-import { faDesktop, faServer, faDatabase } from '@fortawesome/free-solid-svg-icons';
+import { faDesktop, faServer, faDatabase, faRocket, faLink } from '@fortawesome/free-solid-svg-icons';
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 class Cards extends Component {
     render() {
@@ -21,32 +22,39 @@ class Cards extends Component {
                         <div className='card__title'>{projects[card].title}</div>
                     </div>
                     <div className="card__row card__row--tools">
-                        <div className='card__languages'>
+                        {projects[card].frontend_tools ? <div className='card__languages'>
                             <FontAwesomeIcon icon={faDesktop} aria-hidden="false" />
                             <b> {projects[card].frontend_tools}</b>
-                        </div>
-                        <div className='card__languages'>
+                        </div> : null}
+                        {projects[card].backend_tools ? <div className='card__languages'>
                             <FontAwesomeIcon icon={faServer} aria-hidden="false" />
                             <b> {projects[card].backend_tools}</b>
-                        </div>
-                        <div className='card__languages'>
+                        </div> : null}
+
+                        {projects[card].database_tools ? <div className='card__languages'>
                             <FontAwesomeIcon icon={faDatabase} aria-hidden="false" />
                             <b> {projects[card].database_tools}</b>
-                        </div>
+                        </div> : null}
+                        {projects[card].deployment_tools ? <div className='card__languages'>
+                            <FontAwesomeIcon icon={faRocket} aria-hidden="false" />
+                            <b> {projects[card].deployment_tools}</b>
+                        </div> : null}
+
                     </div>
                     <div className="card__row">
                         <div className='card__description'>{projects[card].text}</div>
                         <div>
-                            <a
+                            {projects[card].deploy_link ? (<a
                                 target='_blank'
                                 rel='noopener noreferrer'
                                 href={projects[card].deploy_link}
                                 className='card__button'
                                 aria-label={"Click on this link to view the live deployment of this project" + projects[card].title}
                             >
-                                <FontAwesomeIcon icon={projects[card].deploy_link_icon} aria-hidden="false" />
-                            </a>
-                            {projects[card].code_link_icon ? (
+                                <FontAwesomeIcon icon={faLink} aria-hidden="false" />
+                            </a>) : null
+                            }
+                            {projects[card].code_link ? (
                                 <a
                                     target='_blank'
                                     rel='noopener noreferrer'
@@ -54,7 +62,7 @@ class Cards extends Component {
                                     href={projects[card].code_link}
                                     aria-label='Click on this link to view the code for this project.'
                                 >
-                                    <FontAwesomeIcon icon={projects[card].code_link_icon} aria-hidden="false" />
+                                    <FontAwesomeIcon icon={faGithub} aria-hidden="false" />
                                 </a>
                             ) : null
                             }
@@ -68,9 +76,20 @@ class Cards extends Component {
             <div className="page">
                 <div className="portfolio">
                     {!count() ? <NoCardsMessage />
-                        : <div className="cards">
+                        : 
+                        <Fragment>
+                        <div className="cards__header">Below is a short list of some projects that I have built and am able to share publically. Unfortunately, 
+                        I am not able to show most of the work I have done in the last year and a half, as it has been on internal/private applications for proprietary software companies.&nbsp;
+                        <a
+                        className='cards-header__link'
+                        href='/contact'
+                        aria-label="Click here to view Walter's Contact form"
+                        >Please click here to be taken to the Contact page</a>&nbsp;to schedule a time to talk about my more recent work.
+                        </div>
+                       <div className="cards">
                             {createCards()}
-                        </div>}
+                        </div>
+                        </Fragment>}
 
                 </div>
             </div>

@@ -16,6 +16,24 @@
     color: $base__color;
 }
 
+.cards__header {
+    line-height: 1.5;
+    font-size: $text1;
+    font-weight: 500;
+    // color: $base__background;
+    // background: $base__color;
+    padding: 10px;
+}
+
+.cards-header__link {
+    color: $highlight__color2;
+    cursor: pointer;
+    &:hover {
+        text-decoration: underline;
+        color: $highlight__color2;
+    }
+}
+
 .paragraph__link {
     color: $highlight__color;
 }

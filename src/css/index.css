@@ -55,7 +55,7 @@ a:hover {
 textarea:focus,
 input:focus {
   box-shadow: 0 0 10px #fff;
-  outline-color: #8799c5;
+  outline-color: #8798c5;
 }
 
 .page {
@@ -104,7 +104,7 @@ input:focus {
 .navbar__link.active, .navbar__link:hover {
   padding-bottom: 2px;
   margin-bottom: 2px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #8798c5;
 }
 
 .navbar__icon {
@@ -160,13 +160,13 @@ input:focus {
   padding: 100px 0px;
   border: 1px solid #ccc;
   border-width: 0px 1px 0px 0px;
-  animation-name: slide-menu-u7hgcn1;
+  animation-name: slide-menu-u920jwd;
   animation-duration: 0.2s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   animation-delay: 0s;
 }
-@keyframes slide-menu-u7hgcn1 {
+@keyframes slide-menu-u920jwd {
   from {
     width: 0;
   }
@@ -178,14 +178,14 @@ input:focus {
 .dropdown__overlay {
   height: 100%;
   width: 20%;
-  animation-name: fade-in-u7hgcn5;
+  animation-name: fade-in-u920jwy;
   animation-duration: 0.2s;
   animation-delay: 0.2s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   background: none;
 }
-@keyframes fade-in-u7hgcn5 {
+@keyframes fade-in-u920jwy {
   from {
     background: none;
   }
@@ -252,6 +252,22 @@ input:focus {
   font-size: 12px;
   line-height: 1.7;
   color: #333;
+}
+
+.cards__header {
+  line-height: 1.5;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.cards-header__link {
+  color: #66abff;
+  cursor: pointer;
+}
+.cards-header__link:hover {
+  text-decoration: underline;
+  color: #66abff;
 }
 
 .paragraph__link {
