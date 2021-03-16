@@ -10,7 +10,8 @@ class Bio extends PureComponent {
                         <div className="page-paragraph__header">Before Programming</div>
                         <div className="page__paragraph">I grew up in and around Boston, MA. I loved music, which led me to pursuing a Bachelor of Music at McGill University.
 After McGill I spent a lot of time in academia searching for something that I could really see myself committing to.
-Among other things I considered sound engineering, accounting, organic farming, and plant pathology. 
+Among other things I considered sound engineering, accounting, organic farming, and plant pathology.
+I also served as an Army Bandsman with the 215th Army Band in Fall River, MA for six years.
                         </div>
                     </div>
                     <div className='page-paragraph__wrap'>
