@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import { connect } from 'react-redux';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { NavLink } from "react-router-dom";
 
 import ToolIcons from './ToolIcons.js';
 import NoCardsMessage from './NoCardsMessage';
@@ -80,11 +81,11 @@ class Cards extends Component {
                         <Fragment>
                         <div className="cards__header">Below is a short list of some projects that I have built and am able to share publically. Unfortunately, 
                         I am not able to show most of the work I have done in the last year and a half, as it has been on internal/private applications for proprietary software companies.&nbsp;
-                        <a
+                        <NavLink
                         className='cards-header__link'
-                        href='/contact'
+                        to='/contact'
                         aria-label="Click here to view Walter's Contact form"
-                        >Please click here to be taken to the Contact page</a>&nbsp;to schedule a time to talk about my more recent work.
+                        >Please click here to be taken to the Contact page</NavLink>&nbsp;to schedule a time to talk about my more recent work.
                         </div>
                        <div className="cards">
                             {createCards()}

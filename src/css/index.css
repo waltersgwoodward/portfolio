@@ -116,7 +116,7 @@ input:focus {
 .navbar__link.active, .navbar__link:hover {
   padding-bottom: 2px;
   margin-bottom: 2px;
-  border-bottom: 1px solid #8798c5;
+  border-bottom: 1px solid #ccc;
 }
 
 .navbar__icon {
@@ -172,13 +172,13 @@ input:focus {
   padding: 100px 0px;
   border: 1px solid #ccc;
   border-width: 0px 1px 0px 0px;
-  animation-name: slide-menu-u920ldi;
+  animation-name: slide-menu-ujgsck8;
   animation-duration: 0.2s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   animation-delay: 0s;
 }
-@keyframes slide-menu-u920ldi {
+@keyframes slide-menu-ujgsck8 {
   from {
     width: 0;
   }
@@ -190,14 +190,14 @@ input:focus {
 .dropdown__overlay {
   height: 100%;
   width: 20%;
-  animation-name: fade-in-u920lec;
+  animation-name: fade-in-ujgsckl;
   animation-duration: 0.2s;
   animation-delay: 0.2s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   background: none;
 }
-@keyframes fade-in-u920lec {
+@keyframes fade-in-ujgsckl {
   from {
     background: none;
   }

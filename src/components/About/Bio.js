@@ -1,4 +1,5 @@
 import React, { Fragment, PureComponent } from 'react';
+import { NavLink } from "react-router-dom";
 
 class Bio extends PureComponent {
     render() {
@@ -28,7 +29,7 @@ At the same time, I found myself getting excited about the possiblity of establi
                     </div>
                     <div className="page-paragraph__wrap">
                         <div className="page-paragraph__header">Coding Education</div>
-                        <div className="page__paragraph">From January to August 2018, I enrolled in Lambda School's <a className="text__highlight" href="https://lambdaschool.com/courses/full-stack-web-development">Full Stack Web Development program</a>.
+                        <div className="page__paragraph">From January to August 2018, I enrolled in Lambda School's <a className="cards-header__link " href="https://lambdaschool.com/courses/full-stack-web-development">Full Stack Web Development program</a>.
 Although Lambda School boasts of teaching much more, in truth I would say that I only graduated with a basic understanding of JavaScript and some general familiarity with React.
 In the months that followed graduation, I threw myself into building a portfolio website for prospective employers interested in me and my skills as a developer.
 After looking around a bit, I decided to work through freeCodeCamps curriculum (which was awesome and I highly recommend it!). Between freeCodeCamp, CodeWars, and just lots of reading, by the time I did get my first job, I felt pretty confident in my abilities.
@@ -36,10 +37,10 @@ After looking around a bit, I decided to work through freeCodeCamps curriculum (
                     </div>
                     <div className="page-paragraph__wrap">
                         <div className="page-paragraph__header">Work Experience</div>
-                        <div className="page__paragraph">After three and a half months, my persistance paid off and I got a job working with <a className="text__highlight" href="https://www.theatomgroup.com/">The Atom Group</a> in Portsmouth, NH. The job was a contract position working along side developers at IBM on there E2E testing framework.
+                        <div className="page__paragraph">After three and a half months, my persistance paid off and I got a job working with <a className="cards-header__link " href="https://www.theatomgroup.com/">The Atom Group</a> in Portsmouth, NH. The job was a contract position working along side developers at IBM on there E2E testing framework.
 I worked mostly with NodeJS, Selenium, NightWatchJS and core JavaScript.
 After that contract ended, I found a job working for a small ecommerce company called HandicappedPets.com.
-I was happy to be able to build a tool for them which they now call the <a className="text__highlight" href="https://www.handicappedpets.com/wheelchair-sizer/">"SureFit Calculator"</a>.
+I was happy to be able to build a tool for them which they now call the <a className="cards-header__link " href="https://www.handicappedpets.com/wheelchair-sizer/">"SureFit Calculator"</a>.
 In November 2019, my wife and I moved out to Portland, OR, and I accepted a position as a software developer at a local SaaS Document Management company called Scan123.
 What attracted me to Scan123 was being able to work on a team, rather than just on my own.
 Futhermore, the lead developer was adoment about limiting the introduction of third party dependencies, which if you are trying to establish a long term sustainable SaaS, is essential.
@@ -52,7 +53,11 @@ Having a solid foundation in PHP, I was interested in learning about their popul
                         <div className="page-paragraph__header">Currently</div>
                         <div className="page__paragraph">At the moment, I am continuing to work on a few side projects, and also taking the time I have to educate myself on some of the tools of interest I mentioned above.
 I would say most of what I am working on falls into the realm of PHP and Python Frameworks. 
-That said, I do need to pay rent, so if you have read through to this point, and are looking for an intermediate level web/software developer, please do reach out.
+That said, I do need to pay rent, so if you have read through to this point, and are looking for an intermediate level web/software developer,&nbsp;<NavLink
+                        className='cards-header__link'
+                        to='/contact'
+                        aria-label="Click here to view Walter's Contact form"
+                        >please do reach out</NavLink>.
 Thanks for taking the time to read about my journey!
                         </div>
                     </div>
