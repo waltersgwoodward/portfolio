@@ -5,19 +5,34 @@ class Bio extends PureComponent {
         return (
             <Fragment>
                 <div className='page'>
+                <div className='page-paragraph__wrap'>
+                        
+                        <div className="page-paragraph__header">Before Programming</div>
+                        <div className="page__paragraph">I grew up in and around Boston, MA. I loved music, which led me to pursuing a Bachelor of Music at McGill University.
+After McGill I spent a lot of time in academia searching for something that I could really see myself committing to. Among other things I considered sound engineering, accounting, organic farming, and plant pathology. 
+                        </div>
+                    </div>
                     <div className='page-paragraph__wrap'>
-                        <div className="page-paragraph__header">A Programmer Is Born</div>
-                        <div className="page__paragraph">It was nearing the end of 2017, and I was in my final semester at seminary.
-In my prayers and considerations, I had come to the conclusion that pursuing ministry in a professional or academic setting did not make sense;
-however, since I was a child I had always wanted to try my hand at programming.
+                        
+                        <div className="page-paragraph__header">Coming to Faith</div>
+                        <div className="page__paragraph">Since my grandfather's death in 2008, I had become increasingly interested in the bible and the Christian faith.
+I was baptized in 2013, and enrolled the following year as a Master of Arts in Theology student at Gordon Conwell Theological Seminary.
+I don't want to make light of this decision, but just because it doesn't directly apply to Full Stack Web Development, I won't linger on the subject.
+It is one part of my story that deviates substantially from the stereotypical millenial programmer's story.
+The older I get, the more thankful I am that that is the case.
+At any rate, back to programming.
+It was nearing the end of 2017, and I was in my final semester at seminary.
+In my prayers and considerations, I came to the conclusion that pursuing ministry in a professional or academic setting was not in the cards for me.
+To parse that out a bit, I felt that despite my commitment to the Christian faith, that I lacked key attributes that I recognized were essential for being an effective pastor.
+At the same time, I found myself getting excited about the possiblity of establishing myself as a programmer, so I went for it.
                         </div>
                     </div>
                     <div className="page-paragraph__wrap">
                         <div className="page-paragraph__header">Coding Education</div>
                         <div className="page__paragraph">From January to August 2018, I enrolled in Lambda School's <a className="text__highlight" href="https://lambdaschool.com/courses/full-stack-web-development">Full Stack Web Development program</a>.
-Although Lambda School boasts of teaching much more, in truth I would say that I graduated with a solid basic understanding of JavaScript and some general familiarity with React.
-In the months that followed graduation, I threw myself into building a portfolio website and applying to positions.
-I was aware that this would be challenging. Athough I do hold a degree in Music from McGill University, without a degree in "Computer Science or related field", my options were very limited (and to a lesser extent still are).
+Although Lambda School boasts of teaching much more, in truth I would say that I only graduated with a basic understanding of JavaScript and some general familiarity with React.
+In the months that followed graduation, I threw myself into building a portfolio website for prospective employers interested in me and my skills as a developer.
+After looking around a bit, I decided to work through freeCodeCamps curriculum (which was awesome and I highly recommend it!). Between freeCodeCamp, CodeWars, and just lots of reading, by the time I did get my first job, I felt pretty confident in my abilities.
                         </div>
                     </div>
                     <div className="page-paragraph__wrap">
