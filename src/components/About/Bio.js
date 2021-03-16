@@ -17,8 +17,7 @@ Among other things I considered sound engineering, accounting, organic farming, 
                         <div className="page-paragraph__header">Coming to Faith</div>
                         <div className="page__paragraph">Since my grandfather's death in 2008, I had become increasingly interested in the bible and the Christian faith.
 I was baptized in 2013, and enrolled the following year as a Master of Arts in Theology student at Gordon Conwell Theological Seminary.
-I don't want to make light of this decision, but just because it doesn't directly apply to Full Stack Web Development, I won't linger on the subject.
-It is one part of my story that deviates substantially from the stereotypical millenial programmer's story.
+It is one part of my story that deviates a bit from the stereotypical millenial programmer's story.
 The older I get, the more thankful I am that that is the case.
 At any rate, back to programming.
 It was nearing the end of 2017, and I was in my final semester at seminary.
@@ -30,9 +29,9 @@ At the same time, I found myself getting excited about the possiblity of establi
                     <div className="page-paragraph__wrap">
                         <div className="page-paragraph__header">Coding Education</div>
                         <div className="page__paragraph">From January to August 2018, I enrolled in Lambda School's <a className="cards-header__link " href="https://lambdaschool.com/courses/full-stack-web-development">Full Stack Web Development program</a>.
-Although Lambda School boasts of teaching much more, in truth I would say that I only graduated with a basic understanding of JavaScript and some general familiarity with React.
+I graduated with a basic understanding of JavaScript and some general familiarity with React.
 In the months that followed graduation, I threw myself into building a portfolio website for prospective employers interested in me and my skills as a developer.
-After looking around a bit, I decided to work through freeCodeCamps curriculum (which was awesome and I highly recommend it!). Between freeCodeCamp, CodeWars, and just lots of reading, by the time I did get my first job, I felt pretty confident in my abilities.
+After looking around a bit, I decided to work through freeCodeCamps curriculum (which was awesome and I highly recommend it!). Between freeCodeCamp, CodeWars, and just lots of reading, by the time I did get my first job, I felt pretty confident in my programming abilities.
                         </div>
                     </div>
                     <div className="page-paragraph__wrap">

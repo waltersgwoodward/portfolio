@@ -172,13 +172,13 @@ input:focus {
   padding: 100px 0px;
   border: 1px solid #ccc;
   border-width: 0px 1px 0px 0px;
-  animation-name: slide-menu-ujgsck8;
+  animation-name: slide-menu-ubi1kzo;
   animation-duration: 0.2s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   animation-delay: 0s;
 }
-@keyframes slide-menu-ujgsck8 {
+@keyframes slide-menu-ubi1kzo {
   from {
     width: 0;
   }
@@ -190,14 +190,14 @@ input:focus {
 .dropdown__overlay {
   height: 100%;
   width: 20%;
-  animation-name: fade-in-ujgsckl;
+  animation-name: fade-in-ubi1kzp;
   animation-duration: 0.2s;
   animation-delay: 0.2s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   background: none;
 }
-@keyframes fade-in-ujgsckl {
+@keyframes fade-in-ubi1kzp {
   from {
     background: none;
   }
