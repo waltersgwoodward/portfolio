@@ -58,6 +58,10 @@ input:focus {
   outline-color: #8798c5;
 }
 
+.text__highlight {
+  color: #66abff;
+}
+
 .page {
   padding-top: 60px;
   min-height: 100vh;
@@ -65,6 +69,7 @@ input:focus {
 
 .page__row {
   padding: 1rem 10px;
+  text-align: center;
 }
 
 .page-row__name {
@@ -73,12 +78,19 @@ input:focus {
   padding-top: 7rem;
 }
 
-.page-row__title {
-  text-align: center;
+.page-paragraph__wrap {
+  padding: 0.5rem 5%;
+  font-size: 14px;
 }
 
-.page-row__link {
-  text-align: center;
+.page-paragraph__header {
+  font-size: 20px;
+  padding: 1rem 0px;
+}
+
+.page__paragraph {
+  padding-left: 2%;
+  line-height: 1.5rem;
 }
 
 .navbar__wrap {
@@ -160,13 +172,13 @@ input:focus {
   padding: 100px 0px;
   border: 1px solid #ccc;
   border-width: 0px 1px 0px 0px;
-  animation-name: slide-menu-u920jxm;
+  animation-name: slide-menu-u920ldi;
   animation-duration: 0.2s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   animation-delay: 0s;
 }
-@keyframes slide-menu-u920jxm {
+@keyframes slide-menu-u920ldi {
   from {
     width: 0;
   }
@@ -178,14 +190,14 @@ input:focus {
 .dropdown__overlay {
   height: 100%;
   width: 20%;
-  animation-name: fade-in-u920jye;
+  animation-name: fade-in-u920lec;
   animation-duration: 0.2s;
   animation-delay: 0.2s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   background: none;
 }
-@keyframes fade-in-u920jye {
+@keyframes fade-in-u920lec {
   from {
     background: none;
   }

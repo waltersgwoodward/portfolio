@@ -5,6 +5,7 @@
 
 .page__row {
     padding: 1rem 10px;
+    text-align: center;
 }
 
 .page-row__name {
@@ -13,11 +14,17 @@
     padding-top: 7rem;
 }
 
-.page-row__title {
-    text-align: center;
+.page-paragraph__wrap {
+    padding: 0.5rem 5%;
+    font-size: $text1;
 }
 
-.page-row__link {
-    // display: block;
-    text-align: center;
+.page-paragraph__header {
+    font-size: $header5;
+    padding: 1rem 0px;
+}
+
+.page__paragraph {
+    padding-left: 2%;
+    line-height: 1.5rem;
 }

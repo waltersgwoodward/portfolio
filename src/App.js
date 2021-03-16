@@ -6,8 +6,9 @@ import {
 } from "react-router-dom";
 
 import Home from "./components/Home.js";
-import Contact from "./components/Contact.js";
+import About from "./components/About.js";
 import Portfolio from "./components/Portfolio.js";
+import Contact from "./components/Contact.js";
 
 class App extends Component {
     render() {
@@ -15,8 +16,10 @@ class App extends Component {
             <Switch>
                 <Route path="/" component={Home} exact />
                 <Route path="/home" component={Home} exact />
-                <Route path="/contact" component={Contact} exact />
+                <Route path="/about" component={About} exact />
                 <Route path="/portfolio" component={Portfolio} exact />
+                <Route path="/contact" component={Contact} exact />
+                
             </Switch>
         </Router>)
     }

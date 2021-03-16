@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { toggleDropDown } from '../../actions';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faBriefcase, faEnvelope} from '@fortawesome/free-solid-svg-icons';
+import { faHome, faUser, faBriefcase, faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import { Link } from "react-router-dom";
 
 import HamburgerMenu from './MobileMenu/HamburgerMenu';
@@ -29,6 +29,10 @@ class MobileMenu extends Component {
                       <Link to='/' className='navbar__link' onClick={this.handleClick}>
                           <FontAwesomeIcon icon={faHome} className='navbar__icon' aria-hidden='false'/>
                           <div>Home</div>
+                      </Link>
+                      <Link to='/about' className='navbar__link' onClick={this.handleClick}>
+                          <FontAwesomeIcon icon={faUser} className='navbar__icon' aria-hidden='false'/>
+                          <div>About</div>
                       </Link>
                       <Link to='/portfolio' className='navbar__link' onClick={this.handleClick}>
                           <FontAwesomeIcon icon={faBriefcase} className='navbar__icon' aria-hidden='false'/>

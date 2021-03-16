@@ -8,6 +8,9 @@ class DesktopMenu extends Component {
                 <NavLink to='/home' className='navbar__link' activeClassName="active">
                     <div className='navbar-link__text'>Home</div>
                 </NavLink>
+                <NavLink to='/about' className='navbar__link' activeClassName="active">
+                    <div className='navbar-link__text'>About</div>
+                </NavLink>
                 <NavLink to='/portfolio' className='navbar__link' activeClassName="active">
                     <div className='navbar-link__text'>Portfolio</div>
                 </NavLink>
