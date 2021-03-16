@@ -6,14 +6,13 @@ class Bio extends PureComponent {
             <Fragment>
                 <div className='page'>
                 <div className='page-paragraph__wrap'>
-                        
                         <div className="page-paragraph__header">Before Programming</div>
                         <div className="page__paragraph">I grew up in and around Boston, MA. I loved music, which led me to pursuing a Bachelor of Music at McGill University.
-After McGill I spent a lot of time in academia searching for something that I could really see myself committing to. Among other things I considered sound engineering, accounting, organic farming, and plant pathology. 
+After McGill I spent a lot of time in academia searching for something that I could really see myself committing to.
+Among other things I considered sound engineering, accounting, organic farming, and plant pathology. 
                         </div>
                     </div>
                     <div className='page-paragraph__wrap'>
-                        
                         <div className="page-paragraph__header">Coming to Faith</div>
                         <div className="page__paragraph">Since my grandfather's death in 2008, I had become increasingly interested in the bible and the Christian faith.
 I was baptized in 2013, and enrolled the following year as a Master of Arts in Theology student at Gordon Conwell Theological Seminary.
@@ -45,12 +44,16 @@ In November 2019, my wife and I moved out to Portland, OR, and I accepted a posi
 What attracted me to Scan123 was being able to work on a team, rather than just on my own.
 Futhermore, the lead developer was adoment about limiting the introduction of third party dependencies, which if you are trying to establish a long term sustainable SaaS, is essential.
 During my time at Scan123, I contributed code to every level of the stack; from UI/UX (HTML,CSS, JavaScript), to authentication and validation of user input (PHP), to building and revising our own mySQL query builder.
-After fifteen months with Scan123, I felt it was time for me to seek new opportunities. Having a solid foundation in PHP, I was interested in learning about their popular frameworks, namely Laravel, and also learning more about Python, which is such an elegantly designed language, and one that I have, when given the opportunity, always enjoyed.
+After fifteen months with Scan123, I felt it was time for me to seek new opportunities.
+Having a solid foundation in PHP, I was interested in learning about their popular frameworks, namely Laravel, and also learning more about Python, which is such an elegantly designed language, and one that I have, when given the opportunity, always enjoyed.
                         </div>
                     </div>
                     <div className="page-paragraph__wrap">
                         <div className="page-paragraph__header">Currently</div>
-                        <div className="page__paragraph">At the moment, I am continuing to work on a few side projects, and also taking the time I have to educate myself on some of the tools of interest I mentioned above. I would say most of what I am working on falls into the realm of PHP and Python Frameworks. That said, I do need to pay rent, so if you have read through to this point, and are looking for an intermediate level web/software developer, please do reach out. Thanks for taking the time to read about my journey!
+                        <div className="page__paragraph">At the moment, I am continuing to work on a few side projects, and also taking the time I have to educate myself on some of the tools of interest I mentioned above.
+I would say most of what I am working on falls into the realm of PHP and Python Frameworks. 
+That said, I do need to pay rent, so if you have read through to this point, and are looking for an intermediate level web/software developer, please do reach out.
+Thanks for taking the time to read about my journey!
                         </div>
                     </div>
                 </div>
