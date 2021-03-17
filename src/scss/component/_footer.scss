@@ -1,24 +1,23 @@
-
 .icon__links {
-  display: flex;
-  justify-content: center;
-  font-size: $header2;
+    display: flex;
+    justify-content: center;
+    font-size: $header2;
 }
 
 .icon__link {
-  margin: 0px 20px;
+    margin: 0px 20px;
 }
 
 .footer {
-  font-size: $text4;
-  padding: 1px;
-  text-align: center;
-  color: rgb(#888,0.5);
-  position: fixed;
-  bottom: 0;
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
+    font-size: $text4;
+    padding: 1px;
+    text-align: center;
+    color: rgb(#888, 0.5);
+    position: fixed;
+    bottom: 0;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
 }
 .citations {
-  text-decoration: none;
+    text-decoration: none;
 }

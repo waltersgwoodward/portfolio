@@ -8,7 +8,7 @@ class Bio extends PureComponent {
                 <div className='page'>
                     <div className='page-paragraph__wrap'>
                         <div className="page-paragraph__header">Before Programming</div>
-                        <div className="page__paragraph">I grew up in and around Boston, MA. I loved music, which led me to pursuing a Bachelor of Music at McGill University in Montreal, CA.
+                        <div className="page__paragraph">I grew up in and around Boston, MA. I love music, which led me to pursuing a Bachelor of Music at McGill University.
 After McGill I spent a lot of time in academia searching for something that I could really see myself committing to.
 Among other things I considered sound engineering, accounting, organic farming, and plant pathology.
 During this time I also served as an Army Reserve Bandsman with the 215th Army Band in Fall River, MA for six years.
@@ -16,22 +16,20 @@ During this time I also served as an Army Reserve Bandsman with the 215th Army B
                     </div>
                     <div className='page-paragraph__wrap'>
                         <div className="page-paragraph__header">Coming to Faith</div>
-                        <div className="page__paragraph">Following my grandfather's death in 2004, I become increasingly interested in the Bible and the Christian faith.
+                        <div className="page__paragraph">Following my grandfather's death in 2004, I became very interested in the Bible and the Christian faith.
 I was baptized in 2013, and with the support of my home church enrolled in the Master of Arts in Theology program at Gordon Conwell Theological Seminary.
-This is one part of my story that deviates a bit from that of the stereotypical millenial programmer, but you know the older I get, the more thankful I am that that is the case.
-At any rate, back to programming.
-It was nearing the end of 2017, and I was in my final semester at seminary.
-In my prayers and considerations, I came to the conclusion that pursuing ministry in a professional or academic setting was not the path for me.
-To parse that out a bit, I felt that despite my commitment to the Christian faith, it seemed like the gifts God had given me were more in the direction of engineer and less in the direction of community/spiritual leader.
-Practically speaking, software engineering was the path of least resistance, and also something that I was very excited to learn, so I decided to enroll in a coding bootcamp.
+In my final semester (fall of 2017) of seminary, I came to the conclusion that pursuing ministry in a professional or academic setting was not the path for me.
+Despite my commitment to the Christian faith, it was clear that the gifts God had given me were more in the direction of engineering and less in the direction of a community/spiritual leader.
+I took a few online courses through Code Academy and Udacity, and discovered that I had a genuine passion for programming.
+The more I thought about it, the more it made sense to pursue software engineering, and so I decided to enroll in a coding bootcamp.
                         </div>
                     </div>
                     <div className="page-paragraph__wrap">
                         <div className="page-paragraph__header">Coding Education</div>
                         <div className="page__paragraph">From January to August 2018, I attended Lambda School's <a className="cards-header__link " href="https://lambdaschool.com/courses/full-stack-web-development">Full Stack Web Development program</a>.
-I graduated with a basic understanding of JavaScript and some general familiarity with React.
+I graduated with a basic understanding of JavaScript, some general familiarity with React, and exposure to all the fundamental disciplines required of a full stack web developer.
 In the months that followed graduation, I threw myself into building a portfolio website for prospective employers interested in me and my skills as a developer.
-After looking around a bit, I decided to work through freeCodeCamps curriculum (which was awesome and I highly recommend it!). Between freeCodeCamp, CodeWars, and just lots of reading, by the time I did get my first job, I felt pretty confident in my programming abilities.
+After looking around a bit, I decided to work through freeCodeCamp's curriculum (which was awesome and I highly recommend it!). Between freeCodeCamp, CodeWars, and just lots of reading, by the time I did get my first job, I felt pretty confident in my programming abilities.
                         </div>
                     </div>
                     <div className="page-paragraph__wrap">

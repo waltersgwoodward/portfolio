@@ -16,7 +16,7 @@ const initialState = {
         },
         "hanidcapped-pets": {
             tool_icons: [faJs],
-            title: "HandicappedPets Wizard Sizer",
+            title: "HandicappedPets SureFit Calculator",
             frontend_tools: "JavaScript, WordPress",
             backend_tools: "PHP",
             database_tools: "mySQL",
@@ -31,7 +31,6 @@ const initialState = {
             text: "A web application that I built to make it easier for prospective employers to look at what I am working on and contact me.",
             code_link: "https://github.com/walterswoodward/portfolio",
         },
-
         // "nine-acre-photography": {
         //     tool_icons: [faLaravel],
         //     title: "Nice Acre Photography",
