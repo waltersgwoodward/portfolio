@@ -22,13 +22,13 @@ This is one part of my story that deviates a bit from that of the stereotypical 
 At any rate, back to programming.
 It was nearing the end of 2017, and I was in my final semester at seminary.
 In my prayers and considerations, I came to the conclusion that pursuing ministry in a professional or academic setting was not the path for me.
-To parse that out a bit, I felt that despite my commitment to the Christian faith, that God was calling me to use the gifts he had given me.
-I enjoy and have a knack for problem solving, and despite this exhaustive account of my life, I am kind of an introvert, preferring to spend the majority of my time out of the spotlight.
+To parse that out a bit, I felt that despite my commitment to the Christian faith, it seemed like the gifts God had given me were more in the direction of engineer and less in the direction of community/spiritual leader.
+Practically speaking, software engineering was the path of least resistance, and also something that I was very excited to learn, so I decided to enroll in a coding bootcamp.
                         </div>
                     </div>
                     <div className="page-paragraph__wrap">
                         <div className="page-paragraph__header">Coding Education</div>
-                        <div className="page__paragraph">From January to August 2018, I enrolled in Lambda School's <a className="cards-header__link " href="https://lambdaschool.com/courses/full-stack-web-development">Full Stack Web Development program</a>.
+                        <div className="page__paragraph">From January to August 2018, I attended Lambda School's <a className="cards-header__link " href="https://lambdaschool.com/courses/full-stack-web-development">Full Stack Web Development program</a>.
 I graduated with a basic understanding of JavaScript and some general familiarity with React.
 In the months that followed graduation, I threw myself into building a portfolio website for prospective employers interested in me and my skills as a developer.
 After looking around a bit, I decided to work through freeCodeCamps curriculum (which was awesome and I highly recommend it!). Between freeCodeCamp, CodeWars, and just lots of reading, by the time I did get my first job, I felt pretty confident in my programming abilities.
