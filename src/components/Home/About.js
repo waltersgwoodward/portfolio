@@ -12,6 +12,13 @@ class About extends PureComponent {
                 <div className='page__row page-row__link'>
                     <Link
                         className='page-row__link'
+                        to='/about'
+                        aria-label="Click here to read more about Walter"
+                    >ABOUT</Link>
+                </div>
+                <div className='page__row page-row__link'>
+                    <Link
+                        className='page-row__link'
                         to='/portfolio'
                         aria-label="Click here to view Walter's current projects"
                     >PORTFOLIO</Link>
