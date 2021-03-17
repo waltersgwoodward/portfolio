@@ -50,14 +50,14 @@ Having a solid foundation in PHP, I was interested in learning about their popul
                     </div>
                     <div className="page-paragraph__wrap">
                         <div className="page-paragraph__header">Currently</div>
-                        <div className="page__paragraph">At the moment, I am taking advantage of the time to educate myself on tools that I believe are going to be the future of web development.
+                        <div className="page__paragraph">At the moment, I am taking advantage of the time I have out of the office (that is my less depressing way of saying "unemployed") to educate myself on tools that I believe are going to be the future of web development.
 For the past few weeks I have been teaching myself Laravel (PHP Framework), Flask (Python Micro Web Framework), and Go.
 That said, I do need to pay rent, so if you are looking for an intermediate level web/software developer,&nbsp;<NavLink
                         className='cards-header__link'
                         to='/contact'
                         aria-label="Click here to view Walter's Contact form"
                         >please do reach out</NavLink>.
-Thanks for taking the time to get to know me, and hope to here from you!
+Thanks for taking the time to get to know me, and hope to hear from you soon!
                         </div>
                     </div>
                 </div>
