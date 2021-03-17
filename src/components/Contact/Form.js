@@ -18,20 +18,8 @@ function Form() {
             confirmButtonText: 'Close',
             buttonsStyling: false,
         });
-    } else if (state.errors) {
-        Swal.fire({
-            title: 'Error!',
-            icon: 'error',
-            text: 'Oops! We could not process your request. Please try again later. Thank You!',
-            customClass: {
-                title: 'sweetalert__title',
-                content: 'sweetalert__content',
-                confirmButton: 'sweetalert__button'
-            },
-            confirmButtonText: 'Close',
-            buttonsStyling: false,
-        });
     }
+
     return (
         <div className="page">
             <div className='page-paragraph__wrap'>
