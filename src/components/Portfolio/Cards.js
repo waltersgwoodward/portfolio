@@ -18,7 +18,8 @@ class Cards extends Component {
             const { projects } = this.props;
             let cardsList = Object.keys(this.props.projects).map((card, index) => (
                 <div className='card__wrap' key={index}>
-                    {projects[card].tool_icons ? <ToolIcons card={projects[card]} /> : null}
+                    <div className="card__row--row">{projects[card].tool_icons ? <ToolIcons card={projects[card]} /> : null}</div>
+                    
                     <div className="card__row">
                         <div className='card__title'>{projects[card].title}</div>
                     </div>
@@ -75,12 +76,15 @@ class Cards extends Component {
         };
         return (
             <div className="page">
+                <div className='page-paragraph__wrap'>
+                <div className="page-paragraph__header">Portfolio</div>
+                
                 <div className="portfolio">
                     {!count() ? <NoCardsMessage />
                         : 
                         <Fragment>
-                        <div className="cards__header">Below is a short list of some projects that I have built and am able to share publically. Unfortunately, 
-                        I am not able to show most of the work I have done in the last year and a half, as it has been on internal/private applications for proprietary software companies.&nbsp;
+                        <div className="page__paragraph">Below is a short list of some projects that I have built and am able to share publically. Unfortunately, 
+                        I am not able to show most of the work I have done in the last year and a half, as it has been on internal/private application for a proprietary software company.&nbsp;
                         <NavLink
                         className='cards-header__link'
                         to='/contact'
@@ -92,6 +96,7 @@ class Cards extends Component {
                         </div>
                         </Fragment>}
 
+                </div>
                 </div>
             </div>
         );

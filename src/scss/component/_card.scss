@@ -15,6 +15,9 @@
 .card__row {
     display: flex;
     flex-direction: column;
+    &--row {
+        flex-direction: row;
+    }
 }
 
 .card__row + .card__row:not(:last-child) {

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class ToolIcons extends Component {
@@ -10,9 +10,9 @@ class ToolIcons extends Component {
 
   render() {
     return (
-        <div className="card__row card__row--end">
+        <Fragment>
             {this.toolIcons()}
-        </div>
+        </Fragment>
     );
   }
 }

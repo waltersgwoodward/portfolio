@@ -54,6 +54,14 @@ class Form extends Component {
       
     return (
       <div className="page">
+        <div className='page-paragraph__wrap'>
+            <div className="page-paragraph__header">Contact Form</div>
+            <div className="page__paragraph">Please use this contact form if you:
+                <div className="page__paragraph">1. Have a job that you think I might be a good fit for.</div>
+                <div className="page__paragraph">2. See something terrible or awesome in my code and want to tell me about it.</div>
+                <div className="page__paragraph">3. Need to burn some time / want a pen pal.</div>
+            </div>
+        </div>
         <div className='form__wrap' name='contact'>
           <form className='form__form' onSubmit={this.submitForm} action='https://formspree.io/f/mpzoozjo' method="POST">
             <div className='form__body'>
