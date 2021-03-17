@@ -17,7 +17,7 @@ During this time I also served as an Army Reserve Bandsman with the 215th Army B
                     <div className='page-paragraph__wrap'>
                         <div className="page-paragraph__header">Coming to Faith</div>
                         <div className="page__paragraph">Following my grandfather's death in 2004, I became very interested in the Bible and the Christian faith.
-I was baptized in 2013, and with the support of my home church enrolled in the Master of Arts in Theology program at Gordon Conwell Theological Seminary.
+I was baptized in 2013, and with the support of my home church enrolled in the Master of Arts in Theology program at Gordon Conwell Theological Seminary the following year.
 In my final semester (fall of 2017) of seminary, I came to the conclusion that pursuing ministry in a professional or academic setting was not the path for me.
 Despite my commitment to the Christian faith, it was clear that the gifts God had given me were more in the direction of engineering and less in the direction of a community/spiritual leader.
 I took a few online courses through Code Academy and Udacity, and discovered that I had a genuine passion for programming.
