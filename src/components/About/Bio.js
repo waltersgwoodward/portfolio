@@ -42,7 +42,7 @@ After that contract ended, I found a job working for a small ecommerce company c
 I was happy to be able to build a tool for them which they now call the <a className="cards-header__link " href="https://www.handicappedpets.com/wheelchair-sizer/">"SureFit Calculator"</a>.
 In November 2019, my wife and I moved out to Portland, OR, and I accepted a position as a software developer at a local SaaS Document Management company called Scan123.
 What attracted me to Scan123 was being able to work on a team, rather than just on my own.
-Futhermore, the lead developer was adoment about limiting the introduction of third party dependencies, which if you are trying to establish a long term sustainable SaaS, is essential.
+Futhermore, the lead developer was adamant about limiting the introduction of third party dependencies, which if you are trying to establish a long term sustainable SaaS, is essential.
 During my time at Scan123, I contributed code to every level of the stack; from UI/UX (HTML,CSS, JavaScript), to authentication and validation of user input (PHP), to building and revising our own mySQL query builder.
 After fifteen months with Scan123, I felt it was time for me to seek new opportunities.
 Having a solid foundation in PHP, I was interested in learning about their popular frameworks, namely Laravel, and also learning more about Python, which might be my favorite language despite not having had the opportunity to use it professionally.
