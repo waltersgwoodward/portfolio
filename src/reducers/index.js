@@ -14,7 +14,7 @@ const initialState = {
             text: "During my time at Scan123 I worked with a small team to build out and maintain two web applications. The first was an internal web application used for employees at Scan123 to monitor client data metrics (primarily billing). The second was their customer facing web application. Highlights of the work I contributed to at Scan123 included building a custom REST framework built with core PHP, building and maintaining a custom mySQL query builder designed to interface with Scan123's unique database structure, and buiding a search microservice using Sphinx Search.",
             deploy_link: "https://scan123.com/"
         },
-        "hanidcapped-pets": {
+        "handicapped-pets": {
             tool_icons: [faJs],
             title: "HandicappedPets SureFit Calculator",
             frontend_tools: "JavaScript, WordPress",
