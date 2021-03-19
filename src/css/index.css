@@ -31,13 +31,13 @@ button {
   background: #eee;
   color: #333;
   opacity: 0;
-  animation-name: fade-in-uixfw8d;
+  animation-name: fade-in-uixfwi1;
   animation-duration: 2s;
   animation-delay: 0s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
 }
-@keyframes fade-in-uixfw8d {
+@keyframes fade-in-uixfwi1 {
   from {
     opacity: 0;
   }
@@ -169,6 +169,7 @@ input:focus {
 }
 
 .dropdown__content {
+  position: absolute;
   background: #eee;
   display: flex;
   flex-direction: column;
@@ -179,13 +180,14 @@ input:focus {
   padding: 100px 0px;
   border: 1px solid #ccc;
   border-width: 0px 1px 0px 0px;
-  animation-name: slide-menu-uixfw8s;
+  z-index: 3;
+  animation-name: slide-menu-uixfwis;
   animation-duration: 0.2s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   animation-delay: 0s;
 }
-@keyframes slide-menu-uixfw8s {
+@keyframes slide-menu-uixfwis {
   from {
     width: 0;
   }
@@ -196,15 +198,16 @@ input:focus {
 
 .dropdown__overlay {
   height: 100%;
-  width: 20%;
-  animation-name: fade-in-uixfw92;
+  width: 100%;
+  z-index: 2;
+  animation-name: fade-in-uixfwj2;
   animation-duration: 0.2s;
-  animation-delay: 0.2s;
+  animation-delay: 0s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   background: none;
 }
-@keyframes fade-in-uixfw92 {
+@keyframes fade-in-uixfwj2 {
   from {
     background: none;
   }

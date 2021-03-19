@@ -68,6 +68,7 @@
 }
 
 .dropdown__content {
+    position: absolute;
     background: #eee;
     display: flex;
     flex-direction: column;
@@ -78,6 +79,7 @@
     padding: 100px 0px;
     border: 1px solid #ccc;
     border-width: 0px 1px 0px 0px;
+    z-index: 3;
     @include transition("slide-menu-", 0.2s) {
         from {
             width: 0;
@@ -90,8 +92,9 @@
 
 .dropdown__overlay {
     height: 100%;
-    width: 20%;
-    @include fade-in(0.2s, 0.2s, forwards) {
+    width: 100%;
+    z-index: 2;
+    @include fade-in(0.2s, 0s, forwards) {
         from {
             background: none;
         }
