@@ -11,7 +11,7 @@ const initialState = {
             frontend_tools: "HTML, JavaScript, SASS",
             backend_tools: "Linux, Nginx, PHP",
             database_tools: "MySQL",
-            text: "My most recent job involved working on an agile scrum development team, building and maintaining a LEMP stack REST framework, a mySQL query builder, and a search microservice api using Sphinx Search, all custom designed to for the company's needs.",
+            text: "During my time at Scan123 I worked with a small agile scrum team to build out and maintain two web applications. The first was an internal web application used for employees at Scan123 to monitor client data metrics (primarily billing). The second was their customer facing web application. Highlights of the work I contributed to at Scan123 included building a custom REST framework built with core PHP, building and maintaining a custom mySQL query builder designed to interface with Scan123's unique database structure, and buiding a search microservice using Sphinx Search.",
             deploy_link: "https://scan123.com/"
         },
         "handicapped-pets": {
