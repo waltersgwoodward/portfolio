@@ -49,7 +49,7 @@ Having worked extensively within the LEMP stack, I wanted to commit more time to
                     <div className="page-paragraph__wrap">
                         <div className="page-paragraph__header">Currently</div>
                         <div className="page__paragraph">At the moment, I am taking advantage of the time I have out of the office to educate myself on tools that I believe are going to be the future of web development.
-For the past few weeks I have been teaching myself Flask (Python Micro Web Framework), Go, and AWS
+For the past few weeks I have been teaching myself Flask (Python Micro Web Framework), Go, and AWS.
 That said, I do need to pay rent, so if you are looking for an intermediate level web/software developer,&nbsp;<NavLink
                         className='cards-header__link'
                         to='/contact'
