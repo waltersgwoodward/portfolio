@@ -43,13 +43,13 @@ What attracted me to Scan123 was being able to work on a team, rather than just 
 Futhermore, the lead developer was adamant about limiting the introduction of third party dependencies, which if you are trying to establish a long term sustainable SaaS, is essential.
 During my time at Scan123, I contributed code to every level of the stack; from UI/UX (HTML,CSS, JavaScript), to authentication and validation of user input (PHP), to building and revising our own mySQL query builder.
 After fifteen months with Scan123, I felt it was time for me to seek new opportunities.
-Having a solid foundation in PHP, I was interested in learning about their popular frameworks, namely Laravel, and also learning more about Python, which might be my favorite language despite not having had the opportunity to use it professionally.
+Having worked extensively within the LEMP stack, I wanted to commit more time to investigating more popular web development solutions like AWS and Python.
                         </div>
                     </div>
                     <div className="page-paragraph__wrap">
                         <div className="page-paragraph__header">Currently</div>
                         <div className="page__paragraph">At the moment, I am taking advantage of the time I have out of the office to educate myself on tools that I believe are going to be the future of web development.
-For the past few weeks I have been teaching myself Laravel (PHP Framework), Flask (Python Micro Web Framework), and Go.
+For the past few weeks I have been teaching myself Flask (Python Micro Web Framework), Go, and AWS
 That said, I do need to pay rent, so if you are looking for an intermediate level web/software developer,&nbsp;<NavLink
                         className='cards-header__link'
                         to='/contact'
