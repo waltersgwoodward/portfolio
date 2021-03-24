@@ -1,7 +1,7 @@
 import {
     TOGGLE_DROP_DOWN
 } from "../actions";
-import { faReact, faJs, faLaravel, faLinux, faPhp } from "@fortawesome/free-brands-svg-icons";
+import { faReact, faJs, faLinux, faPhp } from "@fortawesome/free-brands-svg-icons";
 
 const initialState = {
     projects: {
