@@ -36,6 +36,10 @@
     color: $highlight__color;
 }
 
+.highlight__text {
+    color: maroon;
+}
+
 @media (min-width: $ipad) {
     .portfolio {
         flex-direction: row;
