@@ -51,21 +51,20 @@ The project was very rewarding as it required solving scalability and performanc
                         </div>
                     </div>
                     <div className="page-paragraph__wrap">
-                        <div className="page-paragraph__header">Leaving Scan123</div>
+                        <div className="page-paragraph__header">Leaving Scan123 / Burnout</div>
                         <div className="page__paragraph">
 As much as I enjoyed the work, I eventually had to accept that I would not be able to sustain myself at the pace that Scan123 required.
-Long story short, my wife and I want to settle down and have children, and so having occupations that support that, specifically by encouraging a healthy and predictable work/life balance is essential.
-After fifteen months with Scan123, I felt that while the work was fulfilling and the compensation more than adequate, what I really needed was a stable 9 to 5 that would allow me to focus on my family.
+While many factors led to my decision to leave, I would say the primary one was simply that I was suffering from stress induced insomnia.
                         </div>
                     </div>
                     <div className="page-paragraph__wrap">
                         <div className="page-paragraph__header">Currently</div>
-                        <div className="page__paragraph">At the moment, I am taking advantage of the time I have out of the office to focus on other important aspects of healthy living, like exercising, meditation, and reading.
-When I am working on programming related things, I am either chipping away at reading "The Art of UNIX Programming" by Eric S. Raymond or honing my skills in various stacks that I believe are the future of web development.
+                        <div className="page__paragraph">Currently I am focusing on my health, through therapy, medicine, exercise, meditation, and reading.
+When I am working on programming related things, I am either chipping away at reading "The Art of UNIX Programming" by Eric S. Raymond or honing my skills in various stacks that I believe are the future of web development (see my <BioLink href="https://github.com/WalterSWoodward" title="Github profile"/>).
 Currently these include <BioLink href="https://flask.palletsprojects.com/en/1.1.x/" title="Flask"/> (a python web framework),&nbsp;
 <BioLink href="https://roots.io/" title="Roots"/> (a modern WordPress development framework),&nbsp;
 and <BioLink href="https://laravel.com/" title="Laravel"/> (a modern opinionated PHP framework).
-That said, I do need to pay rent, so if you are looking for a intermediate/senior level web/software developer,&nbsp;<NavLink
+That said, I do need to pay rent, so if you are looking for an intermediate level web developer,&nbsp;<NavLink
                         className='cards-header__link'
                         to='/contact'
                         aria-label="Click here to view Walter's Contact form"
