@@ -11,7 +11,7 @@ class Bio extends PureComponent {
                 <div className="page-paragraph__wrap">
                         <div className="page-paragraph__header">Faith</div>
                         <div className="page__paragraph">At my core, I understand the world through a biblical lens.
-Working in the tech industry, I have come to accept that this makes me a bit of a rare breed. For that reason, I offer this short defense for my faith, and explanation for why I don't believe it to be in conflict with most work environments.
+Working in the tech industry, I have come to accept that this isn't always seen in a positive light. For that reason, I offer this short defense of my faith along with an explanation for why I don't believe it to be in conflict with most work environments.
                         </div>
                         <br/>
                         <div className="page__paragraph">The bible is interpretted and used in a myriad of ways, and certainly has been at the center of countless evils in this world.
