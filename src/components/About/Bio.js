@@ -38,33 +38,33 @@ I graduated with a basic understanding of JavaScript, some general familiarity w
                     </div>
                     <div className="page-paragraph__wrap">
                         <div className="page-paragraph__header">Work Experience</div>
-                        <div className="page__paragraph">After three and a half months, my persistance paid off and I got a job working with <BioLink href="https://www.theatomgroup.com/" title="The Atom Group"/> in Portsmouth, NH.\
-The job was a contract position working along side developers at IBM on there E2E testing framework.
-I worked mostly with NodeJS, Selenium, NightWatchJS and core JavaScript.
+                        <div className="page__paragraph">I got my first job working with <BioLink href="https://www.theatomgroup.com/" title="The Atom Group"/> in Portsmouth, NH in December 2018.
+The job was a contract position working alongside developers at IBM on there E2E testing framework.
+Most of my work was done in NodeJS as well as Selenium and NightWatchJS.
 After that contract ended, I found a job working for a small ecommerce company called HandicappedPets.com.
 I was happy to be able to build a tool for them which they now call the <BioLink href="https://www.handicappedpets.com/wheelchair-sizer/" title="SureFit Calculator"/>.
 In November 2019, my wife and I moved out to Portland, OR, and soon after our arrival I accepted a position as a software developer at a local SaaS Document Management company called Scan123.
 What attracted me to Scan123 was being able to work on a team, rather than just on my own.
 During my time at Scan123, I contributed code to every level of the stack; from UI/UX (HTML,CSS, JavaScript), to authentication and validation of user input (PHP), to building and revising our own mySQL query builder.
-My largest contribution to Scan123 was building a sphinx search microservice capable of providing real-time search results for over 150 million documents.
-The project was very rewarding as it required solving scalability and performance issues in creative ways, while keeping costs to a minimum.
+My largest contribution to Scan123 was building a sphinx search microservice capable of providing real-time search results of over 150 million documents.
+The project was very rewarding as it required solving scalability and performance issues in creative ways while keeping costs to a minimum.
                         </div>
                     </div>
                     <div className="page-paragraph__wrap">
                         <div className="page-paragraph__header">Leaving Scan123</div>
                         <div className="page__paragraph">
 As much as I enjoyed the work, I eventually had to accept that I would not be able to sustain myself at the pace that Scan123 required.
-Long story short, my wife and I want to settle down and have children, and so having occupations that support that, specifically by encouraging a healthy work/life balance is essential.
-After fifteen months with Scan123, I felt that while the work was fulfilling and the compensation more than adequate, what I really needed was a stable 9 to 5 that would allow me to focus on my family while also sustaining us financially.
+Long story short, my wife and I want to settle down and have children, and so having occupations that support that, specifically by encouraging a healthy and predictable work/life balance is essential.
+After fifteen months with Scan123, I felt that while the work was fulfilling and the compensation more than adequate, what I really needed was a stable 9 to 5 that would allow me to focus on my family.
                         </div>
                     </div>
                     <div className="page-paragraph__wrap">
                         <div className="page-paragraph__header">Currently</div>
-                        <div className="page__paragraph">At the moment, I am taking advantage of the time I have out of the office to educate myself on tools that I believe are going to be the future of web development.
+                        <div className="page__paragraph">At the moment, I am taking advantage of the time I have out of the office to focus on other important aspects of healthy living, like exercising, meditation, and reading.
+When I am working on programming related things, I am either chipping away at reading "The Art of UNIX Programming" by Eric S. Raymond or honing my skills in various stacks that I believe are the future of web development.
 Currently these include <BioLink href="https://flask.palletsprojects.com/en/1.1.x/" title="Flask"/> (a python web framework),&nbsp;
 <BioLink href="https://roots.io/" title="Roots"/> (a modern WordPress development framework),&nbsp;
 and <BioLink href="https://laravel.com/" title="Laravel"/> (a modern opinionated PHP framework).
-Since the bible, as a source of encouragement and strength, is important to me, I am in the process of planning to build a text analysis tool that might aid those seeking biblical knowledge to find what they are looking for.
 That said, I do need to pay rent, so if you are looking for a intermediate/senior level web/software developer,&nbsp;<NavLink
                         className='cards-header__link'
                         to='/contact'
