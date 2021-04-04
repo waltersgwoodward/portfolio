@@ -14,7 +14,7 @@ class Bio extends PureComponent {
 Working in the tech industry, I have come to accept that this makes me a bit of a rare breed. For that reason, I offer this short defense for my faith, and explanation for why I don't believe it to be in conflict with most work environments.
                         </div>
                         <br/>
-                        <div className="page__paragraph">The bible is interpretted and used in a merid of ways, and certainly has been at the center of countless evils in this world.
+                        <div className="page__paragraph">The bible is interpretted and used in a myriad of ways, and certainly has been at the center of countless evils in this world.
                             <div className="page__paragraph">Yet, within its pages you can find these words:
                                 <div className="page__paragraph highlight__text">The entire law is fulfilled in a single decree: "Love your neighbor as yourself" (Galatians 5:14)</div>
                                 <div className="page__paragraph highlight__text">Above all, love one another deeply, because love covers over a multitude of sins." (1 Peter 4:8)</div>
