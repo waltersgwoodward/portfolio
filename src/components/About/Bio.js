@@ -11,7 +11,7 @@ class Bio extends PureComponent {
                 <div className="page-paragraph__wrap">
                         <div className="page-paragraph__header">Faith</div>
                         <div className="page__paragraph">At my core, I understand the world through a biblical lens.
-Working in the tech industry, I have come to accept that this isn't always seen in a positive light. For that reason, I offer this short defense of my faith along with an explanation for why I don't believe it to be in conflict with most work environments.
+Working in the tech industry, I have come to accept that this isn't always seen in a positive light. For that reason, I offer this short defense for my faith along with an explanation for why I don't believe it to be in conflict with most work environments.
                         </div>
                         <br/>
                         <div className="page__paragraph">The bible is interpretted and used in a myriad of ways, and certainly has been at the center of countless evils in this world.
@@ -27,7 +27,7 @@ Jesus says, <span class="highlight__text">"Man shall not live by bread alone, bu
 Though this applies to more than just work, I believe that Adam and Eve's occupation as gardeners before the fall, together with our own experience, both testify to the truth that work and the dignity it provides, were always intended to be a good thing for mankind to enjoy.
 We are nevertheless burdened by many fears, which drive us apart from one another, even ourselves, and make working together, at times, incredibly difficult.
 It is my reliance on and belief in God that has been and continues to be my guide in navigating through these challenges.
-I have found that this has only made me more of an asset whereever I have worked.
+I have found that this has only made me more of an asset wherever I have worked.
                         </div>
                     </div>
                     <div className="page-paragraph__wrap">
