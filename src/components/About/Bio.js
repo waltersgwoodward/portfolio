@@ -51,17 +51,18 @@ The project was very rewarding as it required solving scalability and performanc
                         </div>
                     </div>
                     <div className="page-paragraph__wrap">
-                        <div className="page-paragraph__header">Leaving Scan123 / Burnout</div>
+                        <div className="page-paragraph__header">Burnout</div>
                         <div className="page__paragraph">
-As much as I enjoyed the work, I eventually had to accept that I would not be able to sustain myself at the pace that Scan123 required.
-While many factors led to my decision to leave, I would say the primary one was simply that I was suffering from stress induced insomnia.
+After 15 months at Scan123, I began recognizing the signs of burnout, and for both my sake and the company's, I decided to resign.
+While many factors led to my decision to leave, after some reflection, I would say the primary one was simply that I was suffering from stress induced insomnia.
+I hold myself responsible for this. I should have sought help sooner, but c'est la vie, I am but human, and recognized the signs all too late.
                         </div>
                     </div>
                     <div className="page-paragraph__wrap">
                         <div className="page-paragraph__header">Currently</div>
-                        <div className="page__paragraph">Currently I am focusing on my health, through therapy, medicine, exercise, meditation, and reading.
+                        <div className="page__paragraph">Currently I am focusing on my health, getting the help that I need through therapy, medicine, exercise, meditation, and reading.
 When I am working on programming related things, I am either chipping away at reading "The Art of UNIX Programming" by Eric S. Raymond or honing my skills in various stacks that I believe are the future of web development (see my <BioLink href="https://github.com/WalterSWoodward" title="Github profile"/>).
-Currently these include <BioLink href="https://flask.palletsprojects.com/en/1.1.x/" title="Flask"/> (a python web framework),&nbsp;
+Currently these include React + <BioLink href="https://flask.palletsprojects.com/en/1.1.x/" title="Flask"/> (a python web framework),&nbsp;
 <BioLink href="https://roots.io/" title="Roots"/> (a modern WordPress development framework),&nbsp;
 and <BioLink href="https://laravel.com/" title="Laravel"/> (a modern opinionated PHP framework).
 That said, I do need to pay rent, so if you are looking for an intermediate level web developer,&nbsp;<NavLink
