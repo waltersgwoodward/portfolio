@@ -55,7 +55,7 @@ The project was very rewarding as it required solving scalability and performanc
                         <div className="page__paragraph">
 After 15 months at Scan123, I began recognizing the signs of burnout, and for both my sake and the company's, I decided to resign.
 While many factors led to my decision to leave, after some reflection, I would say the primary one was simply that I was suffering from stress induced insomnia.
-I hold myself responsible for this. I should have sought help sooner, but c'est la vie, I am but human, and recognized the signs all too late.
+I hold myself responsible for this.
                         </div>
                     </div>
                     <div className="page-paragraph__wrap">
