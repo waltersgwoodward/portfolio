@@ -8,7 +8,16 @@ class Bio extends PureComponent {
         return (
             <Fragment>
                 <div className='page'>
-                <div className="page-paragraph__wrap">
+                    <div className="page-paragraph__wrap">
+                        <div className="page-paragraph__header">Coding Philosophy</div>
+                        <div className="page__paragraph">My coding philosophy (which is still very much in development)
+is largely influenced by the contents of <BioLink href="http://www.catb.org/esr/writings/taoup/html/" title='The Art of UNIX Programming" by Eric S. Raymond'/>.
+While most of the programming I do is done in interpretted languages, UNIX philosophy has become the non-standard standard of excellence that I strive for.
+I hesitate to comment further on the subject, but will say that in addition to the benefits of learning from wiser, more experienced programmers, this work has reminded me to not lose sight of the joy of artful programming;
+without which, I would have given up on this career path a long time ago.
+                        </div>
+                    </div>
+                    <div className="page-paragraph__wrap hide">
                         <div className="page-paragraph__header">Faith</div>
                         <div className="page__paragraph">At my core, I understand the world through a biblical lens.
 Working in the tech industry, I have come to accept that this isn't always seen in a positive light. For that reason, I offer this short defense for my faith along with an explanation for why I don't believe it to be in conflict with most work environments.
@@ -54,14 +63,15 @@ The project was very rewarding as it required solving scalability and performanc
                         <div className="page-paragraph__header">Burnout</div>
                         <div className="page__paragraph">
 After 15 months at Scan123, I began recognizing the signs of burnout, and for both my sake and the company's, I decided to resign.
-While many factors led to my decision to leave, after some reflection, I would say the primary one was simply that I was suffering from stress induced insomnia.
+While many factors led to my decision to leave the primary one was simply that I was suffering from stress induced insomnia.
 I hold myself responsible for this.
                         </div>
                     </div>
                     <div className="page-paragraph__wrap">
                         <div className="page-paragraph__header">Currently</div>
                         <div className="page__paragraph">Currently I am focusing on my health, getting the help that I need through therapy, medicine, exercise, meditation, and reading.
-When I am working on programming related things, I am either chipping away at reading "The Art of UNIX Programming" by Eric S. Raymond or honing my skills in various stacks that I believe are the future of web development (see my <BioLink href="https://github.com/WalterSWoodward" title="Github profile"/>).
+When I am working on programming related things, I am either chipping away at reading <BioLink href="http://www.catb.org/esr/writings/taoup/html/" title='The Art of UNIX Programming" by Eric S. Raymond'/>&nbsp;
+or honing my skills in various stacks that I believe are the future of web development (see my <BioLink href="https://github.com/WalterSWoodward" title="Github profile"/>).
 Currently these include React + <BioLink href="https://flask.palletsprojects.com/en/1.1.x/" title="Flask"/> (a python web framework),&nbsp;
 <BioLink href="https://roots.io/" title="Roots"/> (a modern WordPress development framework),&nbsp;
 and <BioLink href="https://laravel.com/" title="Laravel"/> (a modern opinionated PHP framework).
