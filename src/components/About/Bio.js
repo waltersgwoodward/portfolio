@@ -58,9 +58,10 @@ The project was very rewarding as it required solving scalability and performanc
                         <div className="page-paragraph__header">Currently</div>
                         <div className="page__paragraph">After fifteen months at Scan123, it was clear to me that I needed a change.
 I disagreed with how things were being managed at Scan123, and despite my efforts, felt unable to effect any positive change.
-In the time since I have left, I have focused on other areas of my life that I admit, I was neglecting such as my own mental health, establishing healthy hobbies outside of coding, and spending time with my wife.
-Currently, I am in the process of making a long term committment to a local Portland homeless shelter in the hopes of deepening my understanding of this most marginalized of communities,
-and secondly, I am continuing to teach myself various foundational technologies that I hope will help me in my next full time position.
+In the time since I have left, I have focused on other areas of my life that such as my own mental health, establishing healthy hobbies outside of coding, and spending time with my wife and two cats.
+In addition to programming, I enjoy music, and time permitting, doing work in service to the marginalized.
+To that end, I am in the process of making a long term commitment to a local Portland homeless shelter.
+When I am not doing things related to that, I am continuing to teach myself various foundational technologies that I hope will help me in my next full time position.
 If you are interested in hiring me for a position, or just want to say hi, please feel free to use my <NavLink to="/contact" className="cards-header__link">Contact Page</NavLink>.
                         </div>
                     </div>
