@@ -40,7 +40,7 @@ I have found that this has only made me more of an asset wherever I have worked.
                         </div>
                     </div>
                     <div className="page-paragraph__wrap">
-                        <div className="page-paragraph__header">Experience</div>
+                        <div className="page-paragraph__header">Web Development Experience</div>
                         <div className="page__paragraph">From January to August 2018, I attended <BioLink href="https://lambdaschool.com/courses/full-stack-web-development" title="Lambda School's Full Stack Web Development program"/>.
 I graduated with a basic understanding of JavaScript, some general familiarity with React, and exposure to all the fundamental disciplines required of a full stack web developer.
 I got my first job working with <BioLink href="https://www.theatomgroup.com/" title="The Atom Group"/> in Portsmouth, NH in December 2018.
@@ -55,7 +55,7 @@ The project was very rewarding as it required solving scalability and performanc
                         </div>
                     </div>
                     <div className="page-paragraph__wrap">
-                        <div className="page-paragraph__header">Currently</div>
+                        <div className="page-paragraph__header">Current Activity</div>
                         <div className="page__paragraph">After fifteen months at Scan123, it was clear to me that I needed a change.
 I disagreed with how things were being managed at Scan123, and despite my efforts, felt unable to effect any positive change.
 In the time since I have left, I have focused on other areas of my life that such as my own mental health, establishing healthy hobbies outside of coding, and spending time with my wife and two cats.
