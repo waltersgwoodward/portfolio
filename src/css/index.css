@@ -31,21 +31,13 @@ button {
   background: #eee;
   color: #333;
   opacity: 0;
-<<<<<<< HEAD
-  animation-name: fade-in-u6yebyj;
-=======
-  animation-name: fade-in-u6yebv8;
->>>>>>> staging
+  animation-name: fade-in-u3lmrey;
   animation-duration: 2s;
   animation-delay: 0s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
 }
-<<<<<<< HEAD
-@keyframes fade-in-u6yebyj {
-=======
-@keyframes fade-in-u6yebv8 {
->>>>>>> staging
+@keyframes fade-in-u3lmrey {
   from {
     opacity: 0;
   }
@@ -193,21 +185,13 @@ input:focus {
   border: 1px solid #ccc;
   border-width: 0px 1px 0px 0px;
   z-index: 3;
-<<<<<<< HEAD
-  animation-name: slide-menu-u6yebys;
-=======
-  animation-name: slide-menu-u6yebvt;
->>>>>>> staging
+  animation-name: slide-menu-u3lmrfn;
   animation-duration: 0.2s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   animation-delay: 0s;
 }
-<<<<<<< HEAD
-@keyframes slide-menu-u6yebys {
-=======
-@keyframes slide-menu-u6yebvt {
->>>>>>> staging
+@keyframes slide-menu-u3lmrfn {
   from {
     width: 0;
   }
@@ -220,22 +204,14 @@ input:focus {
   height: 100%;
   width: 100%;
   z-index: 2;
-<<<<<<< HEAD
-  animation-name: fade-in-u6yebz6;
-=======
-  animation-name: fade-in-u6yebwa;
->>>>>>> staging
+  animation-name: fade-in-u3lmrgh;
   animation-duration: 0.2s;
   animation-delay: 0s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   background: none;
 }
-<<<<<<< HEAD
-@keyframes fade-in-u6yebz6 {
-=======
-@keyframes fade-in-u6yebwa {
->>>>>>> staging
+@keyframes fade-in-u3lmrgh {
   from {
     background: none;
   }

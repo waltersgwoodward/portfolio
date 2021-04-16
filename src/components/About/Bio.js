@@ -8,7 +8,7 @@ class Bio extends PureComponent {
         return (
             <Fragment>
                 <div className='page'>
-                    <div className="page-paragraph__wrap">
+                    <div className="page-paragraph__wrap hide">
                         <div className="page-paragraph__header">Coding Philosophy</div>
                         <div className="page__paragraph">My coding philosophy (which is still very much in development)
 is largely influenced by the contents of <BioLink href="http://www.catb.org/esr/writings/taoup/html/" title='"The Art of UNIX Programming" by Eric S. Raymond'/>.
@@ -40,47 +40,28 @@ I have found that this has only made me more of an asset wherever I have worked.
                         </div>
                     </div>
                     <div className="page-paragraph__wrap">
-                        <div className="page-paragraph__header">Coding Education</div>
-                        <div className="page__paragraph">From January to August 2018, I attended Lambda School's <BioLink href="https://lambdaschool.com/courses/full-stack-web-development" title="Full Stack Web Development program"/>.
+                        <div className="page-paragraph__header">Experience</div>
+                        <div className="page__paragraph">From January to August 2018, I attended <BioLink href="https://lambdaschool.com/courses/full-stack-web-development" title="Lambda School's Full Stack Web Development program"/>.
 I graduated with a basic understanding of JavaScript, some general familiarity with React, and exposure to all the fundamental disciplines required of a full stack web developer.
-                        </div>
-                    </div>
-                    <div className="page-paragraph__wrap">
-                        <div className="page-paragraph__header">Work Experience</div>
-                        <div className="page__paragraph">I got my first job working with <BioLink href="https://www.theatomgroup.com/" title="The Atom Group"/> in Portsmouth, NH in December 2018.
+I got my first job working with <BioLink href="https://www.theatomgroup.com/" title="The Atom Group"/> in Portsmouth, NH in December 2018.
 The job was a contract position working alongside developers at IBM on there E2E testing framework.
 Most of my work was done in NodeJS as well as Selenium and NightWatchJS.
-After that contract ended, I found a job working for a small ecommerce company called HandicappedPets.com.
-I was happy to be able to build a tool for them which they now call the <BioLink href="https://www.handicappedpets.com/wheelchair-sizer/" title="SureFit Calculator"/>.
-In November 2019, my wife and I moved out to Portland, OR, and soon after our arrival I accepted a position as a software developer at a local SaaS Document Management company called Scan123.
-What attracted me to Scan123 was being able to work on a team, rather than just on my own.
-During my time at Scan123, I contributed code to every level of the stack; from UI/UX (HTML,CSS, JavaScript), to authentication and validation of user input (PHP), to building and revising our own mySQL query builder.
+After that contract ended, I was fortunate to be able to work with a small ecommerce company called <BioLink href="https://www.handicappedpets.com/" title="HandicappedPets.com"/>.
+During my time with HandicappedPets built a tool for them which they now call the <BioLink href="https://www.handicappedpets.com/wheelchair-sizer/" title="SureFit Calculator"/>.
+In November 2019, my wife and I moved out to Portland, OR, and soon after our arrival I accepted a position as a software developer at a local SaaS Document Management company called <BioLink href="https://scan123.com/" title="Scan123"/>.
+During my time at Scan123, I worked in an Agile Scrum environment and contributed code to every level of the stack; from UI/UX (HTML,CSS, JavaScript), to authentication and validation of user input (PHP), to building and revising our own mySQL query builder.
 My largest contribution to Scan123 was building a sphinx search microservice capable of providing real-time search results of over 150 million documents.
 The project was very rewarding as it required solving scalability and performance issues in creative ways while keeping costs to a minimum.
                         </div>
                     </div>
                     <div className="page-paragraph__wrap">
-                        <div className="page-paragraph__header">Burnout</div>
-                        <div className="page__paragraph">
-After 15 months at Scan123, I began recognizing the signs of burnout, and for both my sake and the company's, I decided to resign.
-While many factors led to my decision to leave the primary one was simply that I was suffering from stress induced insomnia.
-I hold myself responsible for this.
-                        </div>
-                    </div>
-                    <div className="page-paragraph__wrap">
                         <div className="page-paragraph__header">Currently</div>
-                        <div className="page__paragraph">Currently I am focusing on my health, getting the help that I need through therapy, medicine, exercise, meditation, and reading.
-When I am working on programming related things, I am either chipping away at reading <BioLink href="http://www.catb.org/esr/writings/taoup/html/" title='"The Art of UNIX Programming" by Eric S. Raymond'/>&nbsp;
-or honing my skills in various stacks that I believe are the future of web development (see my <BioLink href="https://github.com/WalterSWoodward" title="Github profile"/>).
-Currently these include React + <BioLink href="https://flask.palletsprojects.com/en/1.1.x/" title="Flask"/> (a python web framework),&nbsp;
-<BioLink href="https://roots.io/" title="Roots"/> (a modern WordPress development framework),&nbsp;
-and <BioLink href="https://laravel.com/" title="Laravel"/> (a modern opinionated PHP framework).
-That said, I do need to pay rent, so if you are looking for an intermediate level web developer,&nbsp;<NavLink
-                        className='cards-header__link'
-                        to='/contact'
-                        aria-label="Click here to view Walter's Contact form"
-                        >please do reach out</NavLink>.
-Thanks for taking the time to get to know me, and hope to hear from you soon!
+                        <div className="page__paragraph">After fifteen months at Scan123, it was clear to me that I needed a change.
+I disagreed with how things were being managed at Scan123, and despite my efforts, felt unable to effect any positive change.
+In the time since I have left, I have focused on other areas of my life that I admit, I was neglecting such as my own mental health, establishing healthy hobbies outside of coding, and spending time with my wife.
+Currently, I am in the process of making a long term committment to a local Portland homeless shelter in the hopes of deepening my understanding of this most marginalized of communities,
+and secondly, I am continuing to teach myself various foundational technologies that I hope will help me in my next full time position.
+If you are interested in hiring me for a position, or just want to say hi, please feel free to use my <NavLink to="/contact" className="cards-header__link">Contact Page</NavLink>.
                         </div>
                     </div>
                 </div>
