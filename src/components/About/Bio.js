@@ -44,10 +44,10 @@ I have found that this has only made me more of an asset wherever I have worked.
                         <div className="page__paragraph">From January to August 2018, I attended <BioLink href="https://lambdaschool.com/courses/full-stack-web-development" title="Lambda School's Full Stack Web Development program"/>.
 I graduated with a basic understanding of JavaScript, some general familiarity with React, and exposure to all the fundamental disciplines required of a full stack web developer.
 I got my first job working with <BioLink href="https://www.theatomgroup.com/" title="The Atom Group"/> in Portsmouth, NH in December 2018.
-The job was a contract position working alongside developers at IBM on there E2E testing framework.
+The job was a contract position working alongside developers at IBM on their E2E testing framework.
 Most of my work was done in NodeJS as well as Selenium and NightWatchJS.
 After that contract ended, I was fortunate to be able to work with a small ecommerce company called <BioLink href="https://www.handicappedpets.com/" title="HandicappedPets.com"/>.
-During my time with HandicappedPets built a tool for them which they now call the <BioLink href="https://www.handicappedpets.com/wheelchair-sizer/" title="SureFit Calculator"/>.
+During my time with HandicappedPets, I built a tool for them which they now call the <BioLink href="https://www.handicappedpets.com/wheelchair-sizer/" title="SureFit Calculator"/>.
 In November 2019, my wife and I moved out to Portland, OR, and soon after our arrival I accepted a position as a software developer at a local SaaS Document Management company called <BioLink href="https://scan123.com/" title="Scan123"/>.
 During my time at Scan123, I worked in an Agile Scrum environment and contributed code to every level of the stack; from UI/UX (HTML,CSS, JavaScript), to authentication and validation of user input (PHP), to building and revising our own mySQL query builder.
 My largest contribution to Scan123 was building a sphinx search microservice capable of providing real-time search results of over 150 million documents.
@@ -58,11 +58,13 @@ The project was very rewarding as it required solving scalability and performanc
                         <div className="page-paragraph__header">Current Activity</div>
                         <div className="page__paragraph">After fifteen months at Scan123, it was clear to me that I needed a change.
 I disagreed with how things were being managed at Scan123, and despite my efforts, felt unable to effect any positive change.
-In the time since I have left, I have focused on other areas of my life that such as my own mental health, establishing healthy hobbies outside of coding, and spending time with my wife and two cats.
-In addition to programming, I enjoy music, and time permitting, doing work in service to the marginalized.
-To that end, I am in the process of making a long term commitment to a local Portland homeless shelter.
+By the time I made the decision to leave, I felt burnt out, and emotionally exhausted.
+Never having quit a job before, I felt the need to take some time off, and focus on other areas of my life which were being neglected.
+For me, this meant spending some time in therapy, re-establishing healthy sleeping habits, adopting hobbies outside of coding, and spending time with my wife and two cats.
+In addition to programming, I enjoy music, and time permitting, doing work in service to marginalized people groups.
+Most recently, I decided to make a long term commitment to serving at a local Portland homeless shelter.
 When I am not doing things related to that, I am continuing to teach myself various foundational technologies that I hope will help me in my next full time position.
-If you are interested in hiring me for a position, or just want to say hi, please feel free to use my <NavLink to="/contact" className="cards-header__link">Contact Page</NavLink>.
+If you are interested in hiring me, or just want to say hi, please use my <NavLink to="/contact" className="cards-header__link">Contact Page</NavLink>. Thank You for your time!
                         </div>
                     </div>
                 </div>
