@@ -31,13 +31,13 @@ button {
   background: #eee;
   color: #333;
   opacity: 0;
-  animation-name: fade-in-upogiik;
+  animation-name: fade-in-upogilw;
   animation-duration: 2s;
   animation-delay: 0s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
 }
-@keyframes fade-in-upogiik {
+@keyframes fade-in-upogilw {
   from {
     opacity: 0;
   }
@@ -124,7 +124,6 @@ input:focus {
   transition: top 0.5s;
   max-width: 1250px;
   box-sizing: border-box;
-  border-bottom: 1px solid #ccc;
   background: #eee;
 }
 
@@ -193,13 +192,13 @@ input:focus {
   border: 1px solid #ccc;
   border-width: 0px 1px 0px 0px;
   z-index: 3;
-  animation-name: slide-menu-upogij2;
+  animation-name: slide-menu-upogimu;
   animation-duration: 0.2s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   animation-delay: 0s;
 }
-@keyframes slide-menu-upogij2 {
+@keyframes slide-menu-upogimu {
   from {
     width: 0;
   }
@@ -212,14 +211,14 @@ input:focus {
   height: 100%;
   width: 100%;
   z-index: 2;
-  animation-name: fade-in-upogijx;
+  animation-name: fade-in-upogini;
   animation-duration: 0.2s;
   animation-delay: 0s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   background: none;
 }
-@keyframes fade-in-upogijx {
+@keyframes fade-in-upogini {
   from {
     background: none;
   }
