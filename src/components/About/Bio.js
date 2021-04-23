@@ -27,7 +27,7 @@ For that reason, I offer this short defense for my faith.
                                 <div className="page__paragraph highlight__text">Above all, love one another deeply, because love covers over a multitude of sins. (1 Peter 4:8)</div>
                             </div>
                             <div className="page__paragraph">If you recognize these words to be true, then perhaps, like me, you'll find the rest of this argument compelling.
-Measured up against such standards, I must acknowledge that I do not fulfill the law. Fortunately, God understands this such that in our continued efforts to love as we aught, we can rest in the knowledge of these things:
+Measured up against such standards, I must acknowledge that I do not fulfill the law. Fortunately, God understands this such that in our continued efforts to love as we ought, we can rest in the knowledge of these things:
                                 <div className="page__paragraph highlight__text">For God so loved the world, that he gave his only Son, that whoever believes in him should not perish but have eternal life.
 Whoever believes in him is not condemned, but whoever does not believe is condemned already, because he has not believed in the name of the only Son of God.
 And this is the judgment: the light has come into the world, and people loved the darkness rather than the light because their works were evil.
