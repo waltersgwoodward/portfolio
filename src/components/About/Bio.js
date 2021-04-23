@@ -23,18 +23,25 @@ without which, I would have given up on this career path a long time ago.
                         <div className="page__paragraph">At my core, I understand the world through a biblical lens.
 Working in the tech industry, I have come to accept that this isn't always seen in a positive light. For that reason, I offer this short defense for my faith along with an explanation for why I don't believe it to be in conflict with most work environments.
                         </div>
-                        <br/>
-                        <div className="page__paragraph">The bible is interpretted and used in a myriad of ways, and certainly has been at the center of countless evils in this world.
+                        <div className="page__paragraph">The Bible is interpretted and used in a myriad of ways, and certainly has been at the center of countless evils in this world.
                             <div className="page__paragraph">Yet, within its pages you can find these words:
                                 <div className="page__paragraph highlight__text">The entire law is fulfilled in a single decree: "Love your neighbor as yourself" (Galatians 5:14)</div>
                                 <div className="page__paragraph highlight__text">Above all, love one another deeply, because love covers over a multitude of sins." (1 Peter 4:8)</div>
                             </div>
                         </div>
-                        <div className="page__paragraph">I'm not going to pretend that there aren't what appear to be an abundance of issues in the bible. 
-Only that for me, the above two passages are what I mean when I say, "I am a Christian".
-With regard to work, I work because it is something I believe I was designed to do.
-Jesus says, <span className="highlight__text">"Man shall not live by bread alone, but by every word that proceedeth out of the mouth of God."</span>&nbsp;
-Though this applies to more than just work, I believe that Adam and Eve's occupation as gardeners before the fall, together with our own experience, both testify to the truth that work and the dignity it provides, were always intended to be a good thing for mankind to enjoy.
+                        <div className="page__paragraph">Though many will disagree, I would submit that the message of the Bible is indeed one of hope, healing, and love.
+I maintain that belief while also being able to acknowledge what appear to be an abundance of issues in the Bible.
+I maintain that belief while acknowledging with no small degree of sadness that the symbols, banners, and cultures we associate with Christianity have been and continue to be used, more often than not, as a tool to enslave, rather than liberate. 
+The institutions and individuals that are responsible for such things, in my mind, do not reflect Christianity at all.
+                            <div className="page__paragraph">They are, rather, akin to the Pharisees whom Jesus described in the following way:
+                                <div className="page__paragraph highlight__text">"The scribes and the Pharisees sit on Moses' seat, so practice and observe whatever they tell you—but not what they do.
+                                For they preach, but do not practice. They tie up heavy burdens, hard to bear, and lay them on people's shoulders, but they themselves are not willing to move them with their finger.
+                                They do all their deeds to be seen by others." (Matthew 23:2-5)
+                                </div>
+                            </div>
+With regard to work, it is common to hear colleagues, friends, and family speak of the necessity of work for financial stability, to keep the mind active, or because it is "the right thing to do", but I would submit that with a sustainable balance between one's work and personal life, work can be all those things and more.
+As the Apostle Paul writes, <span className="highlight__text">"Whatever you do, work heartily, as for the Lord and not for men, knowing that from the Lord you will receive the inheritance as your reward (Colossians 3:23)</span>.
+I believe that Adam and Eve's occupation as gardeners before the fall, together with our own experience, both testify to the truth that work and the <b>dignity</b> it provides, were always intended to be a good thing for mankind to enjoy.
 We are nevertheless burdened by many fears, which drive us apart from one another, even ourselves, and make working together, at times, incredibly difficult.
 It is my reliance on and belief in God that has been and continues to be my guide in navigating through these challenges.
 I have found that this has only made me more of an asset wherever I have worked.
