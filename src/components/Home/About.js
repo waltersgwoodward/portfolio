@@ -7,6 +7,7 @@ class About extends PureComponent {
     render() {
         return (
             <div className='page'>
+                <div className="image__inkscape"></div>
                 <div className='page__row page-row__name'>WALTER WOODWARD</div>
                 <div className='page__row page-row__title'>FULL STACK WEB DEVELOPER</div>
                 <div className='page__row page-row__link'>

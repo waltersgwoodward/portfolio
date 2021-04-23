@@ -8,6 +8,7 @@ class Bio extends PureComponent {
         return (
             <Fragment>
                 <div className='page'>
+                    <div className="image__inkscape"></div>
                     <div className="page-paragraph__wrap hide">
                         <div className="page-paragraph__header">Coding Philosophy</div>
                         <div className="page__paragraph">My coding philosophy (which is still very much in development)
@@ -32,7 +33,7 @@ Working in the tech industry, I have come to accept that this isn't always seen 
                         <div className="page__paragraph">I'm not going to pretend that there aren't what appear to be an abundance of issues in the bible. 
 Only that for me, the above two passages are what I mean when I say, "I am a Christian".
 With regard to work, I work because it is something I believe I was designed to do.
-Jesus says, <span class="highlight__text">"Man shall not live by bread alone, but by every word that proceedeth out of the mouth of God."</span>&nbsp;
+Jesus says, <span className="highlight__text">"Man shall not live by bread alone, but by every word that proceedeth out of the mouth of God."</span>&nbsp;
 Though this applies to more than just work, I believe that Adam and Eve's occupation as gardeners before the fall, together with our own experience, both testify to the truth that work and the dignity it provides, were always intended to be a good thing for mankind to enjoy.
 We are nevertheless burdened by many fears, which drive us apart from one another, even ourselves, and make working together, at times, incredibly difficult.
 It is my reliance on and belief in God that has been and continues to be my guide in navigating through these challenges.

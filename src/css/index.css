@@ -31,13 +31,13 @@ button {
   background: #eee;
   color: #333;
   opacity: 0;
-  animation-name: fade-in-ulew80l;
+  animation-name: fade-in-uwc1dha;
   animation-duration: 2s;
   animation-delay: 0s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
 }
-@keyframes fade-in-ulew80l {
+@keyframes fade-in-uwc1dha {
   from {
     opacity: 0;
   }
@@ -67,6 +67,14 @@ input:focus {
 
 .hide {
   display: none;
+}
+
+.image__inkscape {
+  background-image: url("../images/wings.svg");
+  height: 5px;
+  background-repeat: repeat-x;
+  background-size: contain;
+  width: 100%;
 }
 
 .page {
@@ -185,13 +193,13 @@ input:focus {
   border: 1px solid #ccc;
   border-width: 0px 1px 0px 0px;
   z-index: 3;
-  animation-name: slide-menu-ulew80r;
+  animation-name: slide-menu-uwc1dhb;
   animation-duration: 0.2s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   animation-delay: 0s;
 }
-@keyframes slide-menu-ulew80r {
+@keyframes slide-menu-uwc1dhb {
   from {
     width: 0;
   }
@@ -204,14 +212,14 @@ input:focus {
   height: 100%;
   width: 100%;
   z-index: 2;
-  animation-name: fade-in-ulew80s;
+  animation-name: fade-in-uwc1dhy;
   animation-duration: 0.2s;
   animation-delay: 0s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   background: none;
 }
-@keyframes fade-in-ulew80s {
+@keyframes fade-in-uwc1dhy {
   from {
     background: none;
   }
@@ -438,7 +446,6 @@ input:focus {
   flex-direction: column;
   justify-content: space-around;
   width: 100%;
-  padding-bottom: 20px;
 }
 
 .form__body {
