@@ -31,13 +31,13 @@ button {
   background: #eee;
   color: #333;
   opacity: 0;
-  animation-name: fade-in-upogiw8;
+  animation-name: fade-in-uaeudtc;
   animation-duration: 2s;
   animation-delay: 0s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
 }
-@keyframes fade-in-upogiw8 {
+@keyframes fade-in-uaeudtc {
   from {
     opacity: 0;
   }
@@ -194,13 +194,13 @@ input:focus {
   border: 1px solid #ccc;
   border-width: 0px 1px 0px 0px;
   z-index: 3;
-  animation-name: slide-menu-upogix4;
+  animation-name: slide-menu-uaeudtk;
   animation-duration: 0.2s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   animation-delay: 0s;
 }
-@keyframes slide-menu-upogix4 {
+@keyframes slide-menu-uaeudtk {
   from {
     width: 0;
   }
@@ -213,14 +213,14 @@ input:focus {
   height: 100%;
   width: 100%;
   z-index: 2;
-  animation-name: fade-in-upogix8;
+  animation-name: fade-in-uaeudua;
   animation-duration: 0.2s;
   animation-delay: 0s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   background: none;
 }
-@keyframes fade-in-upogix8 {
+@keyframes fade-in-uaeudua {
   from {
     background: none;
   }
