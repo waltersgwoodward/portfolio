@@ -1,9 +1,11 @@
 .image__inkscape {
-    background-image: url('../images/wings.svg');
-    height: 5px;
+    position: fixed;
+    background-image: url('../images/grass.svg');
+    background-position: 0px -5px;
+    width: 100%;
+    max-width: $body__max-width;
+    height: 45px;
     background-repeat: repeat-x;
     background-size: contain;
-    width: 100%;
-    position: fixed;
-    max-width: $body__max-width;
+    z-index: -1;
 }
