@@ -28,16 +28,16 @@ button {
 #root {
   width: 100%;
   letter-spacing: 1.5px;
-  background: #eee;
+  background: #ccc;
   color: #333;
   opacity: 0;
-  animation-name: fade-in-uwv99qt;
+  animation-name: fade-in-u1xaliv;
   animation-duration: 2s;
   animation-delay: 0s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
 }
-@keyframes fade-in-uwv99qt {
+@keyframes fade-in-u1xaliv {
   from {
     opacity: 0;
   }
@@ -128,7 +128,7 @@ input:focus {
   transition: top 0.5s;
   max-width: 1250px;
   box-sizing: border-box;
-  background: #eee;
+  background: #ccc;
 }
 
 .navbar__link {
@@ -196,13 +196,13 @@ input:focus {
   border: 1px solid #ccc;
   border-width: 0px 1px 0px 0px;
   z-index: 3;
-  animation-name: slide-menu-uwv99qy;
+  animation-name: slide-menu-u1xaljt;
   animation-duration: 0.2s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   animation-delay: 0s;
 }
-@keyframes slide-menu-uwv99qy {
+@keyframes slide-menu-u1xaljt {
   from {
     width: 0;
   }
@@ -215,14 +215,14 @@ input:focus {
   height: 100%;
   width: 100%;
   z-index: 2;
-  animation-name: fade-in-uwv99rf;
+  animation-name: fade-in-u1xalke;
   animation-duration: 0.2s;
   animation-delay: 0s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   background: none;
 }
-@keyframes fade-in-uwv99rf {
+@keyframes fade-in-u1xalke {
   from {
     background: none;
   }
