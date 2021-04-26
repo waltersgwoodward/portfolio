@@ -39,7 +39,6 @@ export default function ContactUs() {
 
   return (
      <div className="page">
-     <div className="image__inkscape"></div>
      <div className='page-paragraph__wrap'>
          <div className="page-paragraph__header">Contact Form</div>
          <div className="page__paragraph">Please use this contact form if you:

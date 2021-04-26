@@ -76,7 +76,6 @@ class Cards extends Component {
         };
         return (
             <div className="page">
-                <div className="image__inkscape"></div>
                 <div className='page-paragraph__wrap'>
                 <div className="page-paragraph__header">Portfolio</div>
                 

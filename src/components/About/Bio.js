@@ -8,7 +8,6 @@ class Bio extends PureComponent {
         return (
             <Fragment>
                 <div className='page'>
-                    <div className="image__inkscape"></div>
                     <div className="page-paragraph__wrap hide">
                         <div className="page-paragraph__header">Coding Philosophy</div>
                         <div className="page__paragraph">My coding philosophy (which is still very much in development)
