@@ -31,13 +31,13 @@ button {
   background: #ccc;
   color: #333;
   opacity: 0;
-  animation-name: fade-in-u1xaliv;
+  animation-name: fade-in-up2np11;
   animation-duration: 2s;
   animation-delay: 0s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
 }
-@keyframes fade-in-u1xaliv {
+@keyframes fade-in-up2np11 {
   from {
     opacity: 0;
   }
@@ -62,7 +62,7 @@ a:hover {
 textarea:focus,
 input:focus {
   box-shadow: 0 0 10px #fff;
-  outline-color: #8798c5;
+  outline-color: #008080;
 }
 
 .hide {
@@ -196,13 +196,13 @@ input:focus {
   border: 1px solid #ccc;
   border-width: 0px 1px 0px 0px;
   z-index: 3;
-  animation-name: slide-menu-u1xaljt;
+  animation-name: slide-menu-up2np1s;
   animation-duration: 0.2s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   animation-delay: 0s;
 }
-@keyframes slide-menu-u1xaljt {
+@keyframes slide-menu-up2np1s {
   from {
     width: 0;
   }
@@ -215,14 +215,14 @@ input:focus {
   height: 100%;
   width: 100%;
   z-index: 2;
-  animation-name: fade-in-u1xalke;
+  animation-name: fade-in-up2np2i;
   animation-duration: 0.2s;
   animation-delay: 0s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   background: none;
 }
-@keyframes fade-in-u1xalke {
+@keyframes fade-in-up2np2i {
   from {
     background: none;
   }
@@ -299,16 +299,16 @@ input:focus {
 }
 
 .cards-header__link {
-  color: #66abff;
+  color: #009a80;
   cursor: pointer;
 }
 .cards-header__link:hover {
   text-decoration: underline;
-  color: #66abff;
+  color: #009a80;
 }
 
 .paragraph__link {
-  color: #f6e9fc;
+  color: #1a1aff;
 }
 
 .highlight__text {
@@ -350,7 +350,7 @@ input:focus {
 }
 
 .card__row + .card__row:not(:last-child) {
-  border-bottom: 1px solid #696284;
+  border-bottom: 1px solid #051a2e;
 }
 
 .card__row--tools {
