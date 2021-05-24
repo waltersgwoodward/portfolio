@@ -64,7 +64,7 @@ The project was very rewarding as it required solving scalability and performanc
                         <div className="page__paragraph">After fifteen months at Scan123, it was clear to me that I needed a change.
 I had lost faith in the sustainability of the company, and did not feel that I had a future there any longer.
 I am currently looking for a long term, full time position in (or around) the Portland area.
-As a servant of Christ, I seek roles that make a positive difference in peoples lives, and am relying on God's timing for me to rejoin the workforce.
+As a servant of Christ, I seek roles that make a positive difference in people's lives, and am relying on God's timing for me to rejoin the workforce.
 In the meantime, I have decided to make a commitment to volunteering at the Portland Rescue Mission; a community that helps homeless people get back on their feet.
 I'm now working as a volunteer and am very excited to be a part of such an important service here in Portland.
 When I am not volunteering, I am continuing to teach myself various foundational technologies that I hope will help me in my next full time position.
