@@ -66,8 +66,9 @@ I had lost faith in the sustainability of the company, and did not feel that I h
 I am currently looking for a long term, full time position in (or around) the Portland area.
 As a servant of Christ, I seek roles that make a positive difference in people's lives, and am relying on God's timing for me to rejoin the workforce.
 In the meantime, I have decided to make a commitment to volunteering at the Portland Rescue Mission; a community that helps homeless people get back on their feet.
-I'm now working as a volunteer and am very excited to be a part of such an important service here in Portland.
-When I am not volunteering, I am continuing to teach myself various foundational technologies that I hope will help me in my next full time position.
+Working at PRM and witnessing the generosity of staff and volunteers helping those most in need brings me great joy.
+I consider it a real privilege to be part of such an important service here in Portland.
+When I am not volunteering, I am continuing to teach myself various foundational web development technologies that I hope will help me in my next full time position.
 If you are interested in hiring me, or just want to say hi, please use my <NavLink to="/contact" className="cards-header__link">Contact Page</NavLink>. Thank You for your time!
                         </div>
                     </div>
