@@ -61,12 +61,11 @@ The project was very rewarding as it required solving scalability and performanc
                     </div>
                     <div className="page-paragraph__wrap">
                         <div className="page-paragraph__header">Current Activity</div>
-                        <div className="page__paragraph">After fifteen months at Scan123, it was clear to me that I needed a change. 
-Unfortunately, by the time I made the decision to leave, I felt burnt out, and emotionally exhausted.
-At first, I thought I would just jump right back into working with another company however, after a couple months of project building and interviews, I had to acknowledge that I needed to just take some time off.
-I needed time to process and grieve the loss of the community, the colleagues, and the hopes that I had had for Scan123.
-I needed time to re-establish in my mind why work is important, beyond just the prospect of money or learning new and exciting things.
-In considering how I might do this, I stumbled upon the Portland Rescue Mission, a community that helps homeless people get back on their feet.
+                        <div className="page__paragraph">After fifteen months at Scan123, it was clear to me that I needed a change.
+I had lost faith in the sustainability of the company, and did not feel that I had a future there any longer.
+I am currently looking for a long term, full time position in (or around) the Portland area.
+As a servant of Christ, I seek roles that make a positive difference in peoples lives, and am relying on God's timing for me to rejoin the workforce.
+In the meantime, I have decided to make a commitment to volunteering at the Portland Rescue Mission; a community that helps homeless people get back on their feet.
 I'm now working as a volunteer and am very excited to be a part of such an important service here in Portland.
 When I am not volunteering, I am continuing to teach myself various foundational technologies that I hope will help me in my next full time position.
 If you are interested in hiring me, or just want to say hi, please use my <NavLink to="/contact" className="cards-header__link">Contact Page</NavLink>. Thank You for your time!
