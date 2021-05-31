@@ -31,13 +31,13 @@ button {
   background: #ccc;
   color: #333;
   opacity: 0;
-  animation-name: fade-in-up2np11;
+  animation-name: fade-in-uw5xm57;
   animation-duration: 2s;
   animation-delay: 0s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
 }
-@keyframes fade-in-up2np11 {
+@keyframes fade-in-uw5xm57 {
   from {
     opacity: 0;
   }
@@ -82,6 +82,7 @@ input:focus {
 }
 
 .page {
+  padding: 10px;
   padding-top: 60px;
   min-height: 100vh;
 }
@@ -196,13 +197,13 @@ input:focus {
   border: 1px solid #ccc;
   border-width: 0px 1px 0px 0px;
   z-index: 3;
-  animation-name: slide-menu-up2np1s;
+  animation-name: slide-menu-uw5xm5d;
   animation-duration: 0.2s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   animation-delay: 0s;
 }
-@keyframes slide-menu-up2np1s {
+@keyframes slide-menu-uw5xm5d {
   from {
     width: 0;
   }
@@ -215,14 +216,14 @@ input:focus {
   height: 100%;
   width: 100%;
   z-index: 2;
-  animation-name: fade-in-up2np2i;
+  animation-name: fade-in-uw5xm60;
   animation-duration: 0.2s;
   animation-delay: 0s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   background: none;
 }
-@keyframes fade-in-up2np2i {
+@keyframes fade-in-uw5xm60 {
   from {
     background: none;
   }
