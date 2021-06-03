@@ -48,23 +48,30 @@ For my yoke is easy, and my burden light. (Matthew 11:25-30)</div>
                         <div className="page-paragraph__header">Web Development Experience</div>
                         <div className="page__paragraph">From January to August 2018, I attended <BioLink href="https://lambdaschool.com/courses/full-stack-web-development" title="Lambda School's Full Stack Web Development program"/>.
 I graduated with a basic understanding of JavaScript, some general familiarity with React, and exposure to all the fundamental disciplines required of a full stack web developer.
+<br/><br/>
 I got my first job working with <BioLink href="https://www.theatomgroup.com/" title="The Atom Group"/> in Portsmouth, NH in December 2018.
 The job was a contract position working alongside developers at IBM on their E2E testing framework.
-Most of my work was done in NodeJS as well as Selenium and NightWatchJS.
-After that contract ended, I was fortunate to be able to work with a small ecommerce company called <BioLink href="https://www.handicappedpets.com/" title="HandicappedPets.com"/>.
-During my time with HandicappedPets, I built a tool for them which they now call the <BioLink href="https://www.handicappedpets.com/wheelchair-sizer/" title="SureFit Calculator"/>.
+When I arrived at The Atom Group, we were introduced to a Node.js, Selenium, and NightWatchJS E2E testing application that had been built by a recent CS graduate.
+The structure for the application was there, but many edge cases had not been addressed, libraries utilized were out of date, the code itself was pratically unreadable, and there was no documentation.
+In my time with The Atom Group I worked with a team to address all of the above, leaving them with a working application, complete with a Getting Started guide for future developers.
+<br/><br/>
+Nearing the end of my contract with The Atom Group, I was fortunate to find a job working with a small ecommerce company called <BioLink href="https://www.handicappedpets.com/" title="HandicappedPets.com"/>.
+HandicappedPets was looking for a way to cut down on the cost of sales calls by offering an online form that would calculate the correct sized wheelchair for any given breed.
+I built a web application using vanilla JavaScript, PHP and mySQL, now called the <BioLink href="https://www.handicappedpets.com/wheelchair-sizer/" title="SureFit Calculator"/> which customers can use to get the correct sized wheelchair for their pet.
+Although it has been well over a year since I left HandicappedPets, the SureFit Calculator has continued to serve its purpose, and function as their highest earning source of revenue.
+<br/><br/>
 In November 2019, my wife and I moved out to Portland, OR, and soon after our arrival I accepted a position as a software developer at a local SaaS Document Management company called <BioLink href="https://scan123.com/" title="Scan123"/>.
 During my time at Scan123, I worked in an Agile Scrum environment and contributed code to every level of the stack; from UI/UX (HTML,CSS, JavaScript), to authentication and validation of user input (PHP), to building and revising our own mySQL query builder.
 My largest contribution to Scan123 was building a sphinx search microservice capable of providing real-time search results of over 150 million documents.
 The project was very rewarding as it required solving scalability and performance issues in creative ways while keeping costs to a minimum.
+After fifteen months at Scan123, I decided it was time for a change, and on February 1st, 2021 sent in my resignation letter.
                         </div>
                     </div>
                     <div className="page-paragraph__wrap">
                         <div className="page-paragraph__header">Current Activity</div>
-                        <div className="page__paragraph">After fifteen months at Scan123, it was clear to me that I needed a change.
-I had lost faith in the sustainability of the company, and did not feel that I had a future there any longer.
-I am currently looking for a long term, full time position in (or around) the Portland area.
-As a servant of Christ, I seek roles that make a positive difference in people's lives, and am relying on God's timing for me to rejoin the workforce.
+                        <div className="page__paragraph">
+I feel a personal responsibility to seek roles that make a positive difference in people's lives.
+I am currently looking for a long term, full time position in (or around) the Portland area that I can commit to, and that will support my desire to put down roots and start a family.
 In the meantime, I have decided to make a commitment to volunteering at the Portland Rescue Mission; a community that helps homeless people get back on their feet.
 Working at PRM and witnessing the generosity of staff and volunteers helping those most in need brings me great joy.
 I consider it a real privilege to be part of such an important service here in Portland.
