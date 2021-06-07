@@ -50,7 +50,6 @@ For my yoke is easy, and my burden light. (Matthew 11:25-30)</div>
 I graduated with a basic understanding of JavaScript, some general familiarity with React, and exposure to all the fundamental disciplines required of a full stack web developer.
 <br/><br/>
 I got my first job working with <BioLink href="https://www.theatomgroup.com/" title="The Atom Group"/> in Portsmouth, NH in December 2018.
-The job was a contract position working alongside developers at IBM on their E2E testing framework.
 When I arrived at The Atom Group, we were introduced to a Node.js, Selenium, and NightWatchJS E2E testing application that had been built by a recent CS graduate.
 The structure for the application was there, but many edge cases had not been addressed, libraries utilized were out of date, the code itself was practically unreadable, and there was no documentation.
 In my time with The Atom Group I worked with a team to address all of the above, leaving them with a working application, complete with a Getting Started guide for future developers.
