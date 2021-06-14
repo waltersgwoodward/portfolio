@@ -8,6 +8,25 @@ class Bio extends PureComponent {
         return (
             <Fragment>
                 <div className='page'>
+                    <div className="page-paragraph__wrap card__wrap card__wrap--w100">
+                        <div className="page-paragraph__header">TL;DR</div>
+                        <div className="page__paragraph">
+<strong>Enterprise Level Experience:</strong> 2.5 years
+<br/>
+<strong>Programming Experience:</strong> 3.5 years
+<br/>
+<strong>Project Highlights</strong>
+<br></br>
+<div className="page__paragraph">
+1. <strong>Scan123</strong>: Built a Full Stack (LEMP) web application search feature which consisted of a custom built Sphinx Search indexing microservice and an intuative search UI built to our customer's needs.
+<br/>
+2. <strong>HandicappedPets</strong>: Built a Full Stack JS Web Application called the "SureFit Calculator" for handicappedpets.com to expedite the process of ordering custom sized wheelchairs.
+<br/>
+3. <strong>The Atom Group</strong>: Rebuilt an E2E test application built using NodeJS, NightWatchJS, and Selenium for IBM's Cloud Services.
+
+</div>
+                        </div>
+                    </div>
                     <div className="page-paragraph__wrap hide">
                         <div className="page-paragraph__header">Coding Philosophy</div>
                         <div className="page__paragraph">My coding philosophy (which is still very much in development)

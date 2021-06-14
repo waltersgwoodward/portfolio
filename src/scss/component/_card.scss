@@ -92,5 +92,9 @@
 
     .card__wrap {
         width: 350px;
+        &--w100 {
+            width: 100%;
+            margin: 0;
+        }
     }
 }
