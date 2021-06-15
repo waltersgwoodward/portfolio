@@ -8,23 +8,21 @@ class Bio extends PureComponent {
         return (
             <Fragment>
                 <div className='page'>
-                    <div className="page-paragraph__wrap card__wrap card__wrap--w100">
-                        <div className="page-paragraph__header">TL;DR</div>
-                        <div className="page__paragraph">
-<strong>Enterprise Level Experience:</strong> 2.5 years
-<br/>
-<strong>Programming Experience:</strong> 3.5 years
-<br/>
-<strong>Project Highlights</strong>
-<br></br>
-<div className="page__paragraph">
-1. <strong>Scan123</strong>: Built a Full Stack (LEMP) web application search feature which consisted of a custom built Sphinx Search indexing microservice and an intuative search UI built to our customer's needs.
-<br/>
-2. <strong>HandicappedPets</strong>: Built a Full Stack JS Web Application called the "SureFit Calculator" for handicappedpets.com to expedite the process of ordering custom sized wheelchairs.
-<br/>
-3. <strong>The Atom Group</strong>: Rebuilt an E2E test application built using NodeJS, NightWatchJS, and Selenium for IBM's Cloud Services.
-
-</div>
+                    <div className="page-paragraph__wrap">
+                        <div className="page-paragraph__header">Summary</div>
+                            <div className="page__paragraph">
+                            <strong className="highlight__text--secondary">Enterprise Level Experience:</strong> 2.5 years
+                            <br/>
+                            <strong className="highlight__text--secondary">Project Highlights</strong>
+                            <br></br>
+                            <div className="page__paragraph">
+                            1. <span className="highlight__text--secondary">Scan123</span>: Worked with a small dev team to build a custom LEMP stack framework for two web applications.
+                            Led a small team in building a search feature which provided full OCR and real-time search of over 150 million documents.
+                            <br/>
+                            2. <span className="highlight__text--secondary">HandicappedPets</span>: Built a LAMP stack Web Application (using jQuery, vanilla JS, CSS and HTML on the frontend) called the "SureFit Calculator" for handicappedpets.com to expedite the process of ordering custom sized wheelchairs.
+                            <br/>
+                            3. <span className="highlight__text--secondary">The Atom Group</span>: Rebuilt an E2E test application built using NodeJS, NightWatchJS, and Selenium for IBM's Cloud Services.
+                            </div>
                         </div>
                     </div>
                     <div className="page-paragraph__wrap hide">

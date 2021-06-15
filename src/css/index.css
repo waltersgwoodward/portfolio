@@ -31,13 +31,13 @@ button {
   background: #ccc;
   color: #333;
   opacity: 0;
-  animation-name: fade-in-uhkq8v7;
+  animation-name: fade-in-unmp4ft;
   animation-duration: 2s;
   animation-delay: 0s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
 }
-@keyframes fade-in-uhkq8v7 {
+@keyframes fade-in-unmp4ft {
   from {
     opacity: 0;
   }
@@ -115,6 +115,17 @@ input:focus {
 .page__paragraph {
   padding-left: 2%;
   line-height: 1.5rem;
+}
+
+.paragraph__link {
+  color: #1a1aff;
+}
+
+.highlight__text {
+  color: maroon;
+}
+.highlight__text--secondary {
+  color: #1041A2;
 }
 
 .navbar__wrap {
@@ -197,13 +208,13 @@ input:focus {
   border: 1px solid #ccc;
   border-width: 0px 1px 0px 0px;
   z-index: 3;
-  animation-name: slide-menu-uhkq8vg;
+  animation-name: slide-menu-unmp4gg;
   animation-duration: 0.2s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   animation-delay: 0s;
 }
-@keyframes slide-menu-uhkq8vg {
+@keyframes slide-menu-unmp4gg {
   from {
     width: 0;
   }
@@ -216,14 +227,14 @@ input:focus {
   height: 100%;
   width: 100%;
   z-index: 2;
-  animation-name: fade-in-uhkq8vk;
+  animation-name: fade-in-unmp4h3;
   animation-duration: 0.2s;
   animation-delay: 0s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
   background: none;
 }
-@keyframes fade-in-uhkq8vk {
+@keyframes fade-in-unmp4h3 {
   from {
     background: none;
   }
@@ -306,14 +317,6 @@ input:focus {
 .cards-header__link:hover {
   text-decoration: underline;
   color: #009a80;
-}
-
-.paragraph__link {
-  color: #1a1aff;
-}
-
-.highlight__text {
-  color: maroon;
 }
 
 @media (min-width: 768px) {

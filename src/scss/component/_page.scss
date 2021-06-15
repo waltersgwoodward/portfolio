@@ -33,3 +33,14 @@
     padding-left: 2%;
     line-height: 1.5rem;
 }
+
+.paragraph__link {
+    color: $highlight__color;
+}
+
+.highlight__text {
+    color: maroon;
+    &--secondary {
+        color: #1041A2;
+    }
+}
