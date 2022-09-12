@@ -16,12 +16,14 @@ class Bio extends PureComponent {
                             <strong className="highlight__text--secondary">Project Highlights</strong>
                             <br></br>
                             <div className="page__paragraph">
-                            1. <span className="highlight__text--secondary">Scan123</span>: Worked with a small dev team to build a custom LEMP stack framework for two web applications.
+                            1. <span className="highlight__text--secondary">Jaguar Land Rover</span>: Built the proof of concept for a full stack javascript application integrated into Jaguar Land Rover's proprietary infotainment system
+                            <br/>
+                            2. <span className="highlight__text--secondary">Scan123</span>: Worked with a small dev team to build a custom LEMP stack framework for two web applications.
                             Led a small team in building a search feature which provided full OCR and real-time search of over 150 million documents.
                             <br/>
-                            2. <span className="highlight__text--secondary">HandicappedPets</span>: Built a LAMP stack Web Application (using jQuery, vanilla JS, CSS and HTML on the frontend) called the "SureFit Calculator" for handicappedpets.com to expedite the process of ordering custom sized wheelchairs.
+                            3. <span className="highlight__text--secondary">HandicappedPets</span>: Built a LAMP stack Web Application (using jQuery, vanilla JS, CSS and HTML on the frontend) called the "SureFit Calculator" for handicappedpets.com to expedite the process of ordering custom sized wheelchairs.
                             <br/>
-                            3. <span className="highlight__text--secondary">The Atom Group</span>: Rebuilt an E2E test application built using NodeJS, NightWatchJS, and Selenium for IBM's Cloud Services.
+                            4. <span className="highlight__text--secondary">The Atom Group</span>: Rebuilt an E2E test application built using NodeJS, NightWatchJS, and Selenium for IBM's Cloud Services.
                             </div>
                         </div>
                     </div>
@@ -83,18 +85,18 @@ After deciding that we would continue to utilize the open source tool Sphinx Sea
 After about a month, I was granted a couple developers to help me build out a completely new search feature involving drafting new search ui/ux designs, getting buy-in from customers through interviews, adjusting to their feedback, and finally building out the product.
 In the end we were able to meet our deadlines and successfully build out a search microservice capable of providing real-time search results of over 150 million documents combined with an improved search user interface that allowed customers to conduct advanced search queries of their documents using Optical Character Recognition (generated using Machine Learning powered by Tesseract), identifiers unique to the automotive industry, as well as common search terms such as date ranges, keywords, and parent folder/cabinet names. 
 After fifteen months at Scan123, I decided it was time for a change, and on February 1st, 2021 sent in my resignation letter.
+<br/><br/>
+Following my resignation from Scan123, I spent the next five months just focusing on family life, experimenting with new languages and tools, and 
+building little things, most notably a note taking application in order to help me keep track of things. On July 7th, 2021 I accepted a full-time position 
+as a Senior Full Stack Software Developer at Jaguar Land Rover and continue to be an integral part of the early development of 
+one of their flagship vehicle infotainment applications.
                         </div>
                     </div>
                     <div className="page-paragraph__wrap">
                         <div className="page-paragraph__header">Current Activity</div>
                         <div className="page__paragraph">
-I am passionate about technology and the benefits of automation, but continue to feel a personal responsibility to seek roles that make a positive difference in people's lives.
-I am currently looking for a long term, full time position in (or around) the Portland area that I can commit to, and that will support my desire to put down roots and start a family.
-In the meantime, I have decided to make a commitment to volunteering at the Portland Rescue Mission; a community that helps homeless people get back on their feet.
-Working at PRM and witnessing the generosity of staff and volunteers helping those most in need brings me great joy.
-I consider it a real privilege to be part of such an important service here in Portland.
-When I am not volunteering, I am continuing to teach myself various foundational web development technologies that I hope will help me in my next full time position.
-If you are interested in hiring me, or just want to say hi, please use my <NavLink to="/contact" className="cards-header__link">Contact Page</NavLink>. Thank You for your time!
+I am currently open to considering full time positions in (or around) the Portland area. I am continuing to work with Jaguar Land Rover, but have notified them 
+of my decision to consider other opportunities. If you are interested in hiring me please use my <NavLink to="/contact" className="cards-header__link">Contact Page</NavLink>. Thank You for your time!
                         </div>
                     </div>
                 </div>
