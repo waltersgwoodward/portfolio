@@ -1,10 +1,18 @@
 import {
     TOGGLE_DROP_DOWN
 } from "../actions";
-import { faReact, faJs, faLinux, faPhp } from "@fortawesome/free-brands-svg-icons";
+import { faReact, faJs, faLinux, faPhp, faNodeJs } from "@fortawesome/free-brands-svg-icons";
 
 const initialState = {
     projects: {
+        "Jaguar Land Rover - Full Stack JS App": {
+            tool_icons: [faJs, faLinux, faNodeJs],
+            title: "Jaguar Land Rover Full Stack Vehicle Infotainment JavaScript Application",
+            frontend_tools: "JavaScript, Webpack 5",
+            backend_tools: "NodeJS",
+            database_tools: "JLR's Proprietary Infotainment System Storage API",
+            text: "Currently I work for Jaguar Land Rover as a Senior Full Stack Software Developer. In the last fourteen months I have spent the majority of my time building a full stack web application which was demonstrated to the highest levels of Jaguar Land Rover's leadership in December 2022. Since then I have continued to work with a small team to build out a backend application primarily responsible for downloading up-to-date content for the application to consume from various third party servers.",
+        },
         "Scan123 Web Application": {
             tool_icons: [faLinux, faPhp],
             title: "Scan123 Web Application",
