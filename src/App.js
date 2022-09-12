@@ -22,12 +22,10 @@ class App extends Component {
                 <Route path="/portfolio" component={Portfolio} exact />
                 <Route path="/contact" component={Contact} exact />
                 <Route path="/portfolio/scan123" component={Scan123} exact />
-                
             </Switch>
         </Router>)
     }
 }
-
 
 export default App;
 
