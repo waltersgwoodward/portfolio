@@ -10,7 +10,7 @@ const initialState = {
             title: "Jaguar Land Rover Full Stack Vehicle Infotainment JavaScript Application",
             frontend_tools: "JavaScript, Webpack 5",
             backend_tools: "NodeJS",
-            database_tools: "JLR's Proprietary Infotainment System Storage API",
+            database_tools: "JLR's Infotainment System Storage APIs",
             text: "Currently I work for Jaguar Land Rover as a Senior Full Stack Software Developer. In the last fourteen months I have spent the majority of my time building a full stack web application which was demonstrated to the highest levels of Jaguar Land Rover's leadership in December 2022. Since then I have continued to work with a small team to build out a backend application primarily responsible for downloading up-to-date content for the application to consume from various third party servers.",
         },
         "Scan123 Web Application": {
