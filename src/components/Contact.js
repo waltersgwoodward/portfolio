@@ -1,8 +1,8 @@
 import React, { Component, Fragment } from 'react';
 
-import NavBar from './NavBar.js';
-import Form from './Contact/EmailJSForm.js';
-import Footer from './Footer.js';
+import NavBar from './NavBar';
+import Form from './Contact/Form';
+import Footer from './Footer';
 
 class Contact extends Component {
   render() {
