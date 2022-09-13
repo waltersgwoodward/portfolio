@@ -23,7 +23,7 @@ class Bio extends PureComponent {
                             <strong className="highlight__text--secondary">Project Highlights</strong>
                             <br></br>
                             <div className="page__paragraph">
-                                1. <span className="highlight__text--secondary">Jaguar Land Rover</span>: Built the proof of concept for a full stack javascript application integrated into Jaguar Land Rover's proprietary infotainment system
+                                1. <span className="highlight__text--secondary">Jaguar Land Rover</span>: Built the proof of concept for a full stack javascript application integrated into Jaguar Land Rover's proprietary vehicle infotainment system.
                                 <br />
                                 2. <span className="highlight__text--secondary">Scan123</span>: Worked with a small dev team to build a custom LEMP stack framework for two web applications.
                                 Led a small team in building a search feature which provided full OCR and real-time search of over 150 million documents.
