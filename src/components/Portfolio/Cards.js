@@ -83,8 +83,7 @@ class Cards extends Component {
                     {!count() ? <NoCardsMessage />
                         : 
                         <Fragment>
-                        <div className="page__paragraph">Below is a short list of some projects that I have built and am able to share publically. Unfortunately, 
-                        I am not able to show most of the work I have done in the last year and a half, as it has been on an internal/private application for a proprietary software company.&nbsp;
+                        <div className="page__paragraph">Below is a short list of some projects that I have built and am able to share publically.&nbsp;
                         <NavLink
                         className='cards-header__link'
                         to='/contact'
