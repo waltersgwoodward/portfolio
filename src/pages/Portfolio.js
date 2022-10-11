@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 
 import PortfolioCards from "./Portfolio/Cards";
-import Footer from "./Footer";
+import Footer from "../components/Footer";
 
 const Portfolio = () => {
     return (

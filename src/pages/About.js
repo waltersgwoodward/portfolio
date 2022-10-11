@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 
 import Bio from './About/Bio';
-import Footer from './Footer';
+import Footer from '../components/Footer';
 
 const About = () => {
     return (

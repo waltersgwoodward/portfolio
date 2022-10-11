@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import { NavLink } from "react-router-dom";
+import { getYearsOfExperience } from '../../components/Utils';
 import BioLink from './BioLink';
-import { getYearsOfExperience } from '../Utils';
 
 const Bio = () => {
     return (
