@@ -1,11 +1,6 @@
 import React from 'react';
 
-function BioLink(props) {
-    return (<a 
-            className="cards-header__link "
-            href={props.href}
-            >{props.title}</a>
-    );
-}
+// TODO: Consider whether having an entire file for this is worth it (probably not 🤦‍♂️)
+const BioLink = props => <a className="cards-header__link " href={props.href}>{props.title}</a>;
 
 export default BioLink;

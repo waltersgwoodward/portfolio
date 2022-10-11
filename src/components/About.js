@@ -4,16 +4,14 @@ import NavBar from './NavBar';
 import Bio from './About/Bio';
 import Footer from './Footer';
 
-class About extends React.PureComponent {
-  render() {
+const About = () => {
     return (
-      <Fragment>
-        <NavBar/>
-        <Bio/>
-        <Footer/>
-      </Fragment>
+        <Fragment>
+            <NavBar />
+            <Bio />
+            <Footer />
+        </Fragment>
     );
-  }
 }
 
 export default About;

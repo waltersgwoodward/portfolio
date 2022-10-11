@@ -1,19 +1,17 @@
-import React, { Component, Fragment } from "react";
+import React, { Fragment } from "react";
 
 import NavBar from "./NavBar";
 import PortfolioCards from "./Portfolio/Cards";
 import Footer from "./Footer";
 
-class Portfolio extends Component {
-  render() {
+const Portfolio = () => {
     return (
-      <Fragment>
-        <NavBar/>
-        <PortfolioCards/>
-        <Footer/>
-      </Fragment>
+        <Fragment>
+            <NavBar />
+            <PortfolioCards />
+            <Footer />
+        </Fragment>
     );
-  }
 }
 
 export default Portfolio;

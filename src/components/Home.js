@@ -4,16 +4,14 @@ import NavBar from './NavBar';
 import HomeAbout from './Home/About';
 import Footer from './Footer';
 
-class Home extends React.PureComponent {
-  render() {
+const Home = () => {
     return (
-      <Fragment>
-        <NavBar/>
-        <HomeAbout/>
-        <Footer/>
-      </Fragment>
+        <Fragment>
+            <NavBar />
+            <HomeAbout />
+            <Footer />
+        </Fragment>
     );
-  }
 }
 
 export default Home;
