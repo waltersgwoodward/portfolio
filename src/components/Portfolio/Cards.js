@@ -1,5 +1,4 @@
 import React, { Component, Fragment } from 'react';
-import { connect } from 'react-redux';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { NavLink } from "react-router-dom";
 
@@ -8,15 +7,15 @@ import NoCardsMessage from './NoCardsMessage';
 
 import { faDesktop, faServer, faDatabase, faRocket, faLink } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import projects from './projects';
 
 class Cards extends Component {
     render() {
         const count = () => {
-            return (Object.keys(this.props.projects).length > 0);
+            return (Object.keys(projects).length > 0);
         }
         const createCards = () => {
-            const { projects } = this.props;
-            let cardsList = Object.keys(this.props.projects).map((card, index) => (
+            let cardsList = Object.keys(projects).map((card, index) => (
                 <div className='card__wrap' key={index}>
                     <div className="card__row--row">{projects[card].tool_icons ? <ToolIcons card={projects[card]} /> : null}</div>
                     
@@ -102,8 +101,4 @@ class Cards extends Component {
     }
 }
 
-function mapStateToProps(state) {
-    return { projects: state.projects };
-}
-
-export default connect(mapStateToProps)(Cards);
+export default Cards;
