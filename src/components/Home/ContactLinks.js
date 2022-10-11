@@ -8,7 +8,7 @@ function ContactLinks() {
             <a
                 id='icon__link_github'
                 className='icon__link'
-                href='https://github.com/WalterSWoodward'
+                href='https://github.com/waltersgwoodward'
                 target='_blank'
                 rel='noopener noreferrer'
                 name='github_icon__link'
