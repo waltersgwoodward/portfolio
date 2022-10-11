@@ -1,10 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class HamburgerMenu extends Component {
-  render() {
-    // TODO: Consider just replacing this with the fa icon faHamburger (unless you want to create an animation)
+const HamburgerMenu = props => {
     return (
-        <div className="hamburger__menu" onClick={this.props.toggleSideBarState}>
+        <div className="hamburger__menu" onClick={props.toggleSideBarState}>
             <div className='hamburger-menu__bars'>
                 <div className='hamburger-menu__bar' />
                 <div className='hamburger-menu__bar' />
@@ -13,7 +11,6 @@ class HamburgerMenu extends Component {
             <div className='hamburger__text'>Menu</div>
         </div>
     );
-  }
 }
 
 export default HamburgerMenu;
