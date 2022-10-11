@@ -9,9 +9,11 @@ import Home from "./components/Home"
 import About from "./components/About"
 import Portfolio from "./components/Portfolio"
 import Contact from "./components/Contact"
+import NavBar from "./layout/NavBar";
 
 const App = () => {
         return (<Router>
+            <NavBar />
             <Switch>
                 <Route path="/" component={Home} exact />
                 <Route path="/home" component={Home} exact />
